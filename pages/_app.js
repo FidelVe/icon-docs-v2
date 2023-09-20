@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 import { getCookie } from 'cookies-next';
 
 function MyApp({ Component, pageProps }) {
-  const consent = getCookie('localConsent');
+  // const consent = getCookie('localConsent');
   return (
     <main lang="en" className="font-montserrat">
       {/* <Script
