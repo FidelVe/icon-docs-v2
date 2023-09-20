@@ -1,0 +1,35 @@
+---
+description: 'L1 Chain Built for Interoperability'
+---
+
+import React from 'react';
+import Image from 'next/image';
+import { useTheme } from 'next-themes';
+import { useEffect, useState } from 'react';
+
+export const Homepage = () => {
+
+  return (
+
+    <main className="font-montserrat max-w-7xl min-h-none sm:min-h-screen mx-auto space-y-0 mt-20 sm:mt-0 sm:space-y-10 dark:text-zinc-300 text-zinc-700 border dark:border-black/0 border-white/0 ">
+      
+        <section className="py-4 md:pt-20 relative px-4 sm:px-16">
+            <h1 className="text-center sm:text-left tracking-widest text-[9vw] sm:text-[50px] lg:text-[70px] font-bold font-lemon leading-none relative z-1 dark:text-white text-black">L1 Chain Built for Interoperability</h1>
+            <h2 className="hidden sm:block w-7/12 text-[14px] md:text-[16px] lg:text-[22px] opacity-80">Build new projects, run nodes, add cross-chain functionality to your dapps.</h2>            
+        </section>
+
+        <section className="flex space-x-4 my-4 leading-normal px-4 sm:px-16">
+                <a href='/home-developers' className=' border-xteal w-fit !no-underline px-4 py-8 dark:border-white border block'><p>I'm a developer</p></a>
+                <a href='/home-validators' className=' border-xteal w-fit !no-underline px-4 py-8 dark:border-white border block'><p>I'm a validator</p></a>
+                <a href='/home-xcall' className=' border-xteal w-fit !no-underline px-4 py-8 dark:border-white border block'><p>I want to go cross-chain</p></a>
+                <a href='/home-community' className=' border-xteal w-fit !no-underline px-4 py-8 dark:border-white border block'><p>I'm a community member</p></a>
+        </section>
+
+    </main>
+
+  );
+};
+
+export default Homepage;
+
+;

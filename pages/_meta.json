@@ -1,0 +1,97 @@
+{
+  "index": {
+    "title": "Home",
+    "display": "hidden",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "display": "hidden",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "welcome": {
+    "title": "Welcome",
+    "theme": {
+    "layout": "default",
+    "breadcrumb": false
+  }},
+  "-- BUILD A DAPP ON ICON": {
+    "type": "separator",
+    "title": "BUILD A DAPP ON ICON"
+  },
+  "home-developers": {
+    "title": "Get started for Developers",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false
+    }
+  },
+  "run-a-local-icon-network": {
+    "title": "Run a local ICON network",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "-- RUN AN ICON NODE": {
+    "type": "separator",
+    "title": "RUN AN ICON NODE"
+  },
+  "home-validators": {
+    "title": "Get started for Validators",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false
+    }
+  },
+  "validator-rewards": {
+    "title": "Validator rewards",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "how-to-register-a-validator-node": {
+    "title": "How to register a validator node",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "-- CROSS-CHAIN WITH XCALL": {
+    "type": "separator",
+    "title": "BUILD WITH XCALL"
+  },
+  "home-xcall": {
+    "title": "Get started with xCall",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false
+    }
+  },
+  "testnet": {
+      "title": "🎴 Dropdown Menu",
+      "type": "menu",
+      "items": {
+        "program": {
+          "title": "🎴 Outbound menu item 1 ↗",
+          "href": "/"
+        },
+        "challenges": {
+          "title": "🃏 Outbound menu item 1 ↗",
+          "href": "/"
+        }
+      }
+  },
+  "btp2-status-monitor": {
+    "title": "💱 Direct outbound link ↗",
+    "type": "page",
+    "href": "/",
+    "newWindow": true
+  }  
+}
