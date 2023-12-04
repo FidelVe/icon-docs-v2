@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Script from 'next/script';
 import Layout from '../components/layout';
 import { getCookie } from 'cookies-next';
+import { MendableChatBubble } from "@mendable/search";
 
 function MyApp({ Component, pageProps }) {
   // const consent = getCookie('localConsent');
@@ -47,6 +48,7 @@ function MyApp({ Component, pageProps }) {
       
       <Layout>
         <Component {...pageProps} />
+        <MendableChatBubble anon_key='4a621d80-aa5b-43cc-8600-dd155943ba19' style={{ darkMode: false, accentColor: "#123456" }} />
       </Layout>     
       <Analytics />
     </main>

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
+    "@mendable/search": "^0.0.183",
     "@tailwindcss/typography": "^0.5.9",
     "@vercel/analytics": "^1.0.1",
     "cookies-next": "^2.1.2",
