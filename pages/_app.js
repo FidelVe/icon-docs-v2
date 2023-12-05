@@ -6,7 +6,6 @@ import Layout from '../components/layout';
 import { getCookie } from 'cookies-next';
 import { MendableChatBubble } from "@mendable/search";
 
-
 function MyApp({ Component, pageProps }) {
   // const consent = getCookie('localConsent');
   return (
