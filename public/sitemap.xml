@@ -1,10 +1,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>undefined/explanations</loc>
+    <loc>undefined/home-developers</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/guides</loc>
+    <loc>undefined/home-validators</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/home-xcall</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/how-to-register-a-validator-node</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -16,11 +24,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/quickstart</loc>
+    <loc>undefined/run-a-local-icon-network</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/run-a-local-ICON-network</loc>
+    <loc>undefined/validator-rewards</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -28,67 +36,15 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/explanations/fees</loc>
+    <loc>undefined/run-a-local-icon-network/debugging-a-local-network</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/explanations/message-lifecycle</loc>
+    <loc>undefined/run-a-local-icon-network/decentralizing-a-local-network</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/guides/error-handling</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/guides/receiving-a-message</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/guides/sending-a-message</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/quickstart/sending-a-message-with-rollback</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/quickstart/sending-a-message</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/quickstart/setting-up-a-local-environment-with-dive-cli</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/quickstart/setting-up-a-local-environment</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/run-a-local-ICON-network/debugging-a-local-network</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/run-a-local-ICON-network/decentralizing-a-local-network</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/run-a-local-ICON-network/setting-up-a-local-network</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/guides/build-a-cross-chain-voting-dapp/build-a-cross-chain-voting-dapp-part-1</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/guides/build-a-cross-chain-voting-dapp/build-a-cross-chain-voting-dapp-part-2</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/guides/build-a-cross-chain-voting-dapp/build-a-cross-chain-voting-dapp-part-3</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/guides/build-a-cross-chain-voting-dapp/build-a-cross-chain-voting-dapp-part-4</loc>
+    <loc>undefined/run-a-local-icon-network/setting-up-a-local-network</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
