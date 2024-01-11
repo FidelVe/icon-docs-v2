@@ -1,6 +1,6 @@
 on:
     push:
-        branches: [ master, development, legacy ]
+        branches: [ legacy ]
 name: Broken Link Check
 jobs:
     check:
@@ -9,3 +9,5 @@ jobs:
         steps:
             -   name: Broken Link Check
                 uses: technote-space/broken-link-checker-action@v2
+                with:
+                    TARGET: 'https://github.com/icon-project/docs.icon/tree/legacy'
