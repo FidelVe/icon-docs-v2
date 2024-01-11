@@ -1,0 +1,9 @@
+{
+    "blockchain-transmission-protocol-btp": {
+        "title": "Blockchain Transmission Protocol (BTP)",
+        "theme": {
+            "layout": "default",
+            "breadcrumb": false
+        }
+    }
+}

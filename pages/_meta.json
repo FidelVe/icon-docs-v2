@@ -20,78 +20,49 @@
     "layout": "default",
     "breadcrumb": false
   }},
-  "-- BUILD A DAPP ON ICON": {
-    "type": "separator",
-    "title": "BUILD A DAPP ON ICON"
-  },
-  "home-developers": {
-    "title": "Get started for Developers",
+  "getting-started": {
+    "title": "Getting Started",
     "theme": {
-      "layout": "full",
-      "breadcrumb": false
-    }
+    "layout": "default",
+    "breadcrumb": false
+  }},
+  "-- Concepts": {
+    "type": "separator",
+    "title": "Concepts"
   },
-  "run-a-local-icon-network": {
-    "title": "Run a local ICON network",
+  "blockchain-components": {
+    "title": "Blockchain Components",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "-- RUN AN ICON NODE": {
-    "type": "separator",
-    "title": "RUN AN ICON NODE"
-  },
-  "home-validators": {
-    "title": "Get started for Validators",
+  "economics": {
+    "title": "Economics",
     "theme": {
       "layout": "full",
       "breadcrumb": false
     }
   },
-  "validator-rewards": {
-    "title": "Validator rewards",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "how-to-register-a-validator-node": {
-    "title": "How to register a validator node",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "-- CROSS-CHAIN WITH XCALL": {
-    "type": "separator",
-    "title": "BUILD WITH XCALL"
-  },
-  "home-xcall": {
-    "title": "Get started with xCall",
+  "decentralized-applications-dapps" : {
+    "title": "Decentralized Applications (dApps)",
     "theme": {
       "layout": "full",
       "breadcrumb": false
     }
   },
-  "testnet": {
-      "title": "🎴 Dropdown Menu",
-      "type": "menu",
-      "items": {
-        "program": {
-          "title": "🎴 Outbound menu item 1 ↗",
-          "href": "/"
-        },
-        "challenges": {
-          "title": "🃏 Outbound menu item 1 ↗",
-          "href": "/"
-        }
-      }
+  "cross-chain-communication" : {
+    "title": "Cross-chain Communication",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false
+    }
   },
-  "btp2-status-monitor": {
-    "title": "💱 Direct outbound link ↗",
-    "type": "page",
-    "href": "/",
-    "newWindow": true
-  }  
+  "release-notes" : {
+    "title": "Release Notes",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false
+    }
+  }
 }
