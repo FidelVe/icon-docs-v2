@@ -11,3 +11,4 @@ jobs:
                 uses: technote-space/broken-link-checker-action@v2
                 with:
                     TARGET: 'https://github.com/icon-project/docs.icon/tree/legacy'
+                    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
