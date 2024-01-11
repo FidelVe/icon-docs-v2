@@ -3,6 +3,7 @@ import { DocsThemeConfig, useConfig, useTheme } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 const config: DocsThemeConfig = {
   project: {
@@ -36,11 +37,11 @@ const config: DocsThemeConfig = {
       } 
     } else {
       return {
-        title: 'Welcome',
-        description: "ICON is a general purpose blockchain ecosystem with a focus on linking different blockchains together",
+        title: 'ICON Documentation',
+        description: "ICON's Cross-Chain Framework simplifies cross-chain development with its easy-to-use xCall messaging standard and connections to secure bridging protocols.",
         openGraph: {
           title: 'ICON Documentation',
-          description: "ICON is a general purpose blockchain ecosystem with a focus on linking different blockchains together",
+          description: "ICON's Cross-Chain Framework simplifies cross-chain development with its easy-to-use xCall messaging standard and connections to secure bridging protocols.",
           type: 'website',
           url: 'https://docs.icon.community/',
           images: [
@@ -135,7 +136,7 @@ const config: DocsThemeConfig = {
   },
   logo: () => {
         return (
-          <Image src='/images/icon.png' height='50' width='100' alt={'ICON logo'} />
+          <Image src='/images/icon-network/icon-white.png' height='50' width='100' alt={'ICON logo'} />
         )     
   },
   sidebar: {
@@ -158,21 +159,19 @@ const config: DocsThemeConfig = {
   },
   footer: {
     text: (
-      <div className="relative z-40 flex flex-col items-center w-full sm:items-start">
-        <div>
-          <a
-            className="flex items-center gap-1 text-current"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="icon.foundation homepage"
-            href="https://www.icon.foundation/"
-          >
-            
-            <Image className='mx-auto' src='/images/icon-foundation-logo.svg' height='50' width='120' alt={'ICON logo'} />
-
-          </a>
+      <div className="grid w-full grid-cols-2">
+        <div className='flex flex-col'>
+          <h3 className='font-bold'>Column 1</h3>
+          <Link href='/home-validators'>A</Link>
+          <Link href='/home-validators'>Bunch</Link>
+          <Link href='/home-validators'>Of Links</Link>
         </div>
-        <p className='py-2 mx-auto text-[6px]'>© ICON Foundation 2023</p>
+        <div className='flex flex-col'>
+          <h3 className='font-bold'>Column 2</h3>
+          <Link href='/home-validators'>Some</Link>
+          <Link href='/home-validators'>More</Link>
+          <Link href='/home-validators'>Links</Link>
+        </div>
       </div>   
     )
   },
