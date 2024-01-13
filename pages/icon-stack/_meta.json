@@ -1,0 +1,23 @@
+{
+    "accounts-and-authentication": {
+        "title": "Accounts and Authentication",
+        "theme": {
+            "layout": "default",
+            "breadcrumb": false
+        }
+    },
+    "client-apis": {
+        "title": "Client APIs",
+        "theme": {
+            "layout": "default",
+            "breadcrumb": false
+        }
+    },
+    "icon-networks": {
+        "title": "ICON Networks",
+        "theme": {
+            "layout": "default",
+            "breadcrumb": false
+        }
+    }
+}
