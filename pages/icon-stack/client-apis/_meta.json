@@ -1,0 +1,37 @@
+{
+  "json-rpc-api": {
+    "title": "JSON-RPC API",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "javascript-sdk": {
+    "title": "JavaScript SDK",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "python-sdk": {
+    "title": "Python SDK",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "java-sdk": {
+    "title": "Java SDK",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "swift-sdk": {
+    "title": "Swift SDK",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

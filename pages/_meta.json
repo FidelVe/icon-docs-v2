@@ -1,10 +1,73 @@
 {
+  "welcome": {
+    "title": "Welcome",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
   "index": {
     "title": "Home",
     "display": "hidden",
     "theme": {
       "layout": "raw"
     }
+  },
+  "separator1": {
+    "type": "separator",
+    "title": "Getting started"
+  },
+  "getting-started": {
+    "title": "Getting Started",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "separator2": {
+    "type": "separator",
+    "title": "XCALL"
+  },
+  "xcall": {
+    "title": "XCALL",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "separator3": {
+    "type": "separator",
+    "title": "Concepts"
+  },
+  "concepts": {
+    "title": "Concepts",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "separator4": {
+    "type": "separator",
+    "title": "Icon Stack"
+  },
+  "icon-stack": {
+    "title": "ICON Stack",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "separator5": {
+    "type": "separator",
+    "title": "Cross-chain Communication"
+  },
+  "separator6": {
+    "type": "separator",
+    "title": "Support"
+  },
+  "separator7": {
+    "type": "separator",
+    "title": "Release Notes"
   },
   "privacy-policy": {
     "title": "Privacy Policy",
@@ -14,51 +77,7 @@
       "breadcrumb": false
     }
   },
-  "welcome": {
-    "title": "Welcome",
-    "theme": {
-    "layout": "default",
-    "breadcrumb": false
-  }},
-  "getting-started": {
-    "title": "Getting Started",
-    "theme": {
-    "layout": "default",
-    "breadcrumb": false
-  }},
-  "-- Concepts": {
-    "type": "separator",
-    "title": "Concepts"
-  },
-  "blockchain-components": {
-    "title": "Blockchain Components",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "economics": {
-    "title": "Economics",
-    "theme": {
-      "layout": "full",
-      "breadcrumb": false
-    }
-  },
-  "decentralized-applications-dapps" : {
-    "title": "Decentralized Applications (dApps)",
-    "theme": {
-      "layout": "full",
-      "breadcrumb": false
-    }
-  },
-  "cross-chain-communication" : {
-    "title": "Cross-chain Communication",
-    "theme": {
-      "layout": "full",
-      "breadcrumb": false
-    }
-  },
-  "release-notes" : {
+  "release-notes": {
     "title": "Release Notes",
     "theme": {
       "layout": "full",

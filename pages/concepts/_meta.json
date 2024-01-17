@@ -1,48 +1,41 @@
 {
-  "icon-execution-environments": {
-    "title": "ICON Execution Environments",
+  "economics": {
+    "title": "Economics",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "smart-contracts": {
-    "title": "Smart Contracts",
+  "governance": {
+    "title": "Governance",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "icon-networks": {
-    "title": "ICON Networks",
+  "network": {
+    "title": "Network",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "client-apis": {
-    "title": "Client APIs",
+  "computational-utilities": {
+    "title": "Blockchain Components",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "accounts-and-authentication": {
-    "title": "Accounts and Authentication",
+  "decentralized-applications-dapps": {
+    "title": "Decentralized applications (DApps)",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "storage": {
-    "title": "Storage",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "ides": {
-    "title": "IDEs",
+  "icon-improvement-proposals-iips": {
+    "title": "Standards",
     "theme": {
       "layout": "default",
       "breadcrumb": false

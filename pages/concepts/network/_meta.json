@@ -1,0 +1,23 @@
+{
+  "clients": {
+    "title": "Clients",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "api-endpoints": {
+    "title": "API Endpoints",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "validator-nodes": {
+    "title": "Validator Nodes",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

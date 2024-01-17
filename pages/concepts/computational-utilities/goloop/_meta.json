@@ -1,0 +1,30 @@
+{
+  "setup": {
+    "title": "Setup",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "cli": {
+    "title": "CLI",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "maintenance-api": {
+    "title": "Maintenance API",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "maintenance-metrics-api": {
+    "title": "Maintenance Metrics API",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

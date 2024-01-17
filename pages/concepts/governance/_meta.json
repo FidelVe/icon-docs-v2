@@ -1,0 +1,16 @@
+{
+  "delegates": {
+    "title": "Delegates",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "network-proposals": {
+    "title": "Network Proposals",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "setting-up-a-local-network": {
+    "title": "Setting up a local network",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "decentralizing-a-local-network": {
+    "title": "Decentralizing a local network",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "debugging-a-local-network": {
+    "title": "Debugging a local network",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}
