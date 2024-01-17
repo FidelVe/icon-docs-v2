@@ -1,0 +1,58 @@
+{
+  "common-operation-and-debug-steps": {
+    "title": "Common Operation and Debug Steps",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "node-operation-and-configuration": {
+    "title": "More on node operation and configuration",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "understanding-log-files": {
+    "title": "Understanding log files",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "how-to-collect-centralized-logging": {
+    "title": "How to collect centralized logging",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "backup-and-restore-db-guide": {
+    "title": "Backup and restore DB guide",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "how-to-setup-a-keystore-on-a-validator-node": {
+    "title": "How to setup a keystore on a validator node",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "how-to-bond": {
+    "title": "How to bond",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "how-to-check-if-a-validator-is-missing-blocks": {
+    "title": "How to check if a validator is missing blocks",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

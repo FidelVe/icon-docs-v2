@@ -1,13 +1,20 @@
 {
-  "how-to-run-a-local-network": {
-    "title": "How to Run a Local Network",
+  "register-prep-node-public-key": {
+    "title": "How to register a validator node public key",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "": {
-    "title": "",
+  "migrate-node-to-a-different-server": {
+    "title": "Migrating node to a different server",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "json-standard-for-validator-detailed-information": {
+    "title": "JSON standard for validator detailed information",
     "theme": {
       "layout": "default",
       "breadcrumb": false

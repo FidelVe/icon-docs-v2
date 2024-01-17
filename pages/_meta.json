@@ -61,26 +61,40 @@
     "type": "separator",
     "title": "Cross-chain Communication"
   },
+  "cross-chain-communication": {
+    "title": "Cross-chain Communication",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
   "separator6": {
     "type": "separator",
     "title": "Support"
   },
+  "support": {
+    "title": "Support",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
   "separator7": {
     "type": "separator",
     "title": "Release Notes"
+  },
+  "release-notes": {
+    "title": "Release Notes",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
   },
   "privacy-policy": {
     "title": "Privacy Policy",
     "display": "hidden",
     "theme": {
       "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "release-notes": {
-    "title": "Release Notes",
-    "theme": {
-      "layout": "full",
       "breadcrumb": false
     }
   }
