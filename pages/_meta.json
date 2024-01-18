@@ -97,5 +97,13 @@
       "layout": "default",
       "breadcrumb": false
     }
+  },
+  "privacy-policy2": {
+    "title": "Privacy Policy",
+    "display": "hidden",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
   }
 }
