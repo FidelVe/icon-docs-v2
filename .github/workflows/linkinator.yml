@@ -1,6 +1,7 @@
 on:
   push:
     branches:
+      - development
       - legacy
   pull_request:
 name: linkinator-check
