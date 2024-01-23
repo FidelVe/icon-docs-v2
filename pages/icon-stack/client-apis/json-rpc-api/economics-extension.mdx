@@ -457,7 +457,7 @@ Returns the amount of I-Score that a ICONist has received as a reward
 | ------------ | ---------- | -------- | --------------------------------------------------------- |
 | blockHeight  | T\_INT     | true     | Block height when I-Score is estimated                    |
 | iscore       | T\_INT     | true     | Amount of I-Score                                         |
-| estimatedICX | T\_INT     | true     | <p>Estimated amount in loop<br>1000 I-Score == 1 loop</p> |
+| estimatedICX | T\_INT     | true     | Estimated amount in loop1000 I-Score == 1 loop |
 
 ### registerPRep
 
@@ -496,16 +496,16 @@ Register an address as a P-Rep to Blockchain
 
 | Key         | VALUE Type | Required | Description                                                                                                                        |
 | ----------- | ---------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| name        | T\_STRING  | true     | <p>P-Rep name<br>"ABC Node"</p>                                                                                                    |
-| email       | T\_STRING  | true     | <p>P-Rep email<br>"abc@example.com"</p>                                                                                            |
-| country     | T\_STRING  | true     | <p><a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3">ISO 3166-1 ALPHA-3</a><br>"KOR", "USA", "CHN"</p>                    |
+| name        | T\_STRING  | true     | P-Rep name "ABC Node"                                                                                                    |
+| email       | T\_STRING  | true     | P-Rep email "abc@example.com"                                                                                            |
+| country     | T\_STRING  | true     | [ISO 3166-1 ALPHA-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) "KOR", "USA", "CHN"                    |
 | city        | T\_STRING  | true     | "Seoul", "New York", "Paris"                                                                                                       |
-| website     | T\_STRING  | true     | <p>P-Rep homepage url<br>"<a href="https://abc.example.com">https://abc.example.com</a>"</p>                                       |
-| detailes    | T\_STRING  | true     | <p>Url including P-Rep detail information<br>"<a href="https://abc.example.com/details/">https://abc.example.com/details/</a>"</p> |
-| p2pEndpoint | T\_STRING  | true     | <p>Network info used for connecting among P-Rep nodes<br>"123.45.67.89:7100", "node.example.com:7100"</p>                          |
-| nodeAddress | T\_STRING  | False    | <p>Node Key for only consensus<br>"hxe7af5fcfd8dfc67530a01a0e403882687528dfcb"</p>                                                 |
+| website     | T\_STRING  | true     | P-Rep homepage url "https://abc.example.com"                                       |
+| detailes    | T\_STRING  | true     | Url including P-Rep detail information "https://abc.example.com/details/" |
+| p2pEndpoint | T\_STRING  | true     | Network info used for connecting among P-Rep nodes "123.45.67.89:7100", "node.example.com:7100"                          |
+| nodeAddress | T\_STRING  | False    | Node Key for only consensus "hxe7af5fcfd8dfc67530a01a0e403882687528dfcb"                                                 |
 
-\*details : See [JSON Standard for P-Rep Detailed Information](/getting-started/how-to-run-a-validator-node/json-standard-for-validator-detailed-information#json-standard-for-validator-detailed-information)
+*details: See [JSON Standard for P-Rep Detailed Information](/getting-started/how-to-run-a-validator-node/json-standard-for-validator-detailed-information#json-standard-for-validator-detailed-information)
 
 #### EventLog
 
@@ -574,16 +574,16 @@ Update P-Rep register information
 
 | Key         | VALUE Type | Required | Description                                                                                                                        |
 | ----------- | ---------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| name        | T\_STRING  | false    | <p>P-Rep name<br>"ABC Node"</p>                                                                                                    |
-| email       | T\_STRING  | false    | <p>P-Rep email<br>"abc@example.com"</p>                                                                                            |
-| country     | T\_STRING  | false    | <p><a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3">ISO 3166-1 ALPHA-3</a><br>"KOR", "USA", "CHN"</p>                    |
+| name        | T\_STRING  | false    | P-Rep name "ABC Node"                                                                                                    |
+| email       | T\_STRING  | false    | P-Rep email"abc@example.com"                                                                                            |
+| country     | T\_STRING  | false    | [ISO 3166-1 ALPHA-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) "KOR", "USA", "CHN"                    |
 | city        | T\_STRING  | false    | "Seoul", "New York", "Paris"                                                                                                       |
-| website     | T\_STRING  | false    | <p>P-Rep homepage url<br>"<a href="https://abc.example.com">https://abc.example.com</a>"</p>                                       |
-| detailes    | T\_STRING  | false    | <p>Url including P-Rep detail information<br>"<a href="https://abc.example.com/details/">https://abc.example.com/details/</a>"</p> |
-| p2pEndpoint | T\_STRING  | false    | <p>Network info used for connecting among P-Rep nodes<br>"123.45.67.89:7100", "node.example.com:7100"</p>                          |
-| nodeAddress | T\_STRING  | false    | <p>Node Key for only consensus<br>"hxe7af5fcfd8dfc67530a01a0e403882687528dfcb"</p>                                                 |
+| website     | T\_STRING  | false    | P-Rep homepage url "https://abc.example.com"                                       |
+| detailes    | T\_STRING  | false    | Url including P-Rep detail information "https://abc.example.com/details/" |
+| p2pEndpoint | T\_STRING  | false    | Network info used for connecting among P-Rep nodes "123.45.67.89:7100", "node.example.com:7100"                          |
+| nodeAddress | T\_STRING  | false    | Node Key for only consensus "hxe7af5fcfd8dfc67530a01a0e403882687528dfcb"                                                 |
 
-\*details : See [JSON Standard for P-Rep Detailed Information](/getting-started/how-to-run-a-validator-node/json-standard-for-validator-detailed-information#json-standard-for-validator-detailed-information)
+*details : See [JSON Standard for P-Rep Detailed Information](/getting-started/how-to-run-a-validator-node/json-standard-for-validator-detailed-information#json-standard-for-validator-detailed-information)
 
 #### EventLog
 
@@ -654,18 +654,18 @@ Returns P-Rep register information
 
 | Key                     | VALUE Type   | Required | Description                                                                                                                        |
 | ----------------------- | ------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| status                  | T\_INT       | true     | <p>0: active<br>1: unregistered</p>                                                                                                |
-| grade                   | T\_INT       | true     | <p>0: Main P-Rep<br>1: Sub P-Rep<br>2: P-Rep candidate</p>                                                                         |
+| status                  | T\_INT       | true     | 0: active 1: unregistered                                                                                                |
+| grade                   | T\_INT       | true     | 0: Main P-Rep 1: Sub P-Rep 2: P-Rep candidate                                                                         |
 | address                 | T\_ADDR\_EOA | true     | P-Rep address                                                                                                                      |
-| name                    | T\_STRING    | true     | <p>P-Rep name<br>"ABC Node"</p>                                                                                                    |
-| email                   | T\_STRING    | true     | <p>P-Rep email<br>"abc@example.com"</p>                                                                                            |
-| country                 | T\_STRING    | true     | <p><a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3">ISO 3166-1 ALPHA-3</a><br>"KOR", "USA", "CHN"</p>                    |
+| name                    | T\_STRING    | true     | P-Rep name "ABC Node"                                                                                                    |
+| email                   | T\_STRING    | true     | P-Rep email" abc@example.com"                                                                                            |
+| country                 | T\_STRING    | true     | [ISO 3166-1 ALPHA-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) "KOR", "USA", "CHN"                    |
 | city                    | T\_STRING    | true     | "Seoul", "New York", "Paris"                                                                                                       |
-| website                 | T\_STRING    | true     | <p>P-Rep homepage url<br>"<a href="https://abc.example.com">https://abc.example.com</a>"</p>                                       |
-| detailes                | T\_STRING    | true     | <p>Url including P-Rep detail information<br>"<a href="https://abc.example.com/details/">https://abc.example.com/details/</a>"</p> |
-| p2pEndpoint             | T\_STRING    | true     | <p>Network info used for connecting among P-Rep nodes<br>"123.45.67.89:7100", "node.example.com:7100"</p>                          |
-| nodeAddress             | T\_STRING    | true     | <p>Node Key for only consensus<br>"hxe7af5fcfd8dfc67530a01a0e403882687528dfcb"</p>                                                 |
-| irep                    | T\_INT       | true     | <p>Incentive rep used to calculate the reward for P-Rep<br>Limit: +- 20% of the previous value<br>Unit: loop</p>                   |
+| website                 | T\_STRING    | true     | P-Rep homepage url "https://abc.example.com"                                       |
+| detailes                | T\_STRING    | true     | Url including P-Rep detail information "https://abc.example.com/details/" |
+| p2pEndpoint             | T\_STRING    | true     | Network info used for connecting among P-Rep nodes "123.45.67.89:7100", "node.example.com:7100"                          |
+| nodeAddress             | T\_STRING    | true     | Node Key for only consensus "hxe7af5fcfd8dfc67530a01a0e403882687528dfcb"                                                 |
+| irep                    | T\_INT       | true     | Incentive rep used to calculate the reward for P-RepLimit: +- 20% of the previous valueUnit: loop                   |
 | irepUpdatedBlockHeight  | T\_INT       | true     | Block height when a P-Rep changed I-Rep value                                                                                      |
 | lastGenerateBlockHeight | T\_INT       | true     | Height of the last block which a P-Rep generated                                                                                   |
 | stake                   | T\_INT       | true     | Amount of stake that a P-Rep has                                                                                                   |
@@ -704,7 +704,7 @@ Returns the status of all registered P-Rep candidates in descending order by del
 
 | Key          | VALUE Type | Required | Description                                                     |
 | ------------ | ---------- | -------- | --------------------------------------------------------------- |
-| startRanking | T\_INT     | false    | <p>Default: 1<br>P-Rep list which starts from start ranking</p> |
+| startRanking | T\_INT     | false    | Default: 1P-Rep list which starts from start ranking |
 | endRanking   | T\_INT     | false    | Default: the last ranking                                       |
 
 > Example responses
