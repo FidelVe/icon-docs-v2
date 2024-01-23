@@ -162,15 +162,15 @@ const config: DocsThemeConfig = {
       <div className="grid w-full grid-cols-2">
         <div className='flex flex-col'>
           <h3 className='font-bold'>Column 1</h3>
-          <Link href='/home-validators'>A</Link>
-          <Link href='/home-validators'>Bunch</Link>
-          <Link href='/home-validators'>Of Links</Link>
+          <Link href='/'>A</Link>
+          <Link href='/'>Bunch</Link>
+          <Link href='/'>Of Links</Link>
         </div>
         <div className='flex flex-col'>
           <h3 className='font-bold'>Column 2</h3>
-          <Link href='/home-validators'>Some</Link>
-          <Link href='/home-validators'>More</Link>
-          <Link href='/home-validators'>Links</Link>
+          <Link href='/'>Some</Link>
+          <Link href='/'>More</Link>
+          <Link href='/'>Links</Link>
         </div>
       </div>   
     )

@@ -1,12 +1,12 @@
 {
-  "genesis-storage": {
+  "genesis-tx": {
     "title": "Genesis transaction file format",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "genesis-tx": {
+  "genesis-storage": {
     "title": "Genesis transaction storage",
     "theme": {
       "layout": "default",
