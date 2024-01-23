@@ -1,0 +1,9 @@
+{
+    "what-is-xcall": {
+      "title": "What is xCall",
+      "theme": {
+        "layout": "default",
+        "breadcrumb": false
+      }
+    }
+  }
