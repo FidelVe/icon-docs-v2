@@ -6,7 +6,7 @@ ICON supports SDK for 3rd party or user services development. You can integrate 
 
 ### `class` ICONService
 
-`ICONService` is a class which provides APIs to communicate with ICON nodes. It enables you to easily use [ICON JSON-RPC APIs](broken-reference) (version 3). All methods of `IconService` returns a `Request<T, ICError>` instance.
+`ICONService` is a class which provides APIs to communicate with ICON nodes. It enables you to easily use [ICON JSON-RPC APIs](json-rpc-api/v3) (version 3). All methods of `IconService` returns a `Request<T, ICError>` instance.
 
 #### Query Execution
 
@@ -70,9 +70,9 @@ iconService.getLastBlock().async { (result) in
 
 | Class                                             | Description                                                                                                         |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| [Transaction](./#class-transaction)               | A class for Transaction instance which is for sending ICX.                                                          |
-| [CallTransaction](./#class-calltransaction)       | A class for CallTransaction instance which is for SCORE function call. CallTransaction extends `Transaction` class. |
-| [MessageTransaction](./#class-messagetransaction) | A class for MessageTransaction instance which is for transfer message. Extends `Transaction` class.                 |
+| [Transaction](#class-transaction)               | A class for Transaction instance which is for sending ICX.                                                          |
+| [CallTransaction](#class-calltransaction)       | A class for CallTransaction instance which is for SCORE function call. CallTransaction extends `Transaction` class. |
+| [MessageTransaction](#class-messagetransaction) | A class for MessageTransaction instance which is for transfer message. Extends `Transaction` class.                 |
 
 Request is executed as **Synchronized** or **Asynchronized** like a querying request.
 
@@ -114,7 +114,7 @@ init(provider: String, nid: String)
 | provider  | `String` | ICON node url. |
 | nid       | `String` | Network ID.    |
 
-For more details of node URL and network id, see [ICON Network](broken-reference) document.
+For more details of node URL and network id, see [ICON Network](/icon-stack/icon-networks/main-network) document.
 
 **Example**
 
@@ -438,7 +438,7 @@ func sendTransaction(signedTransaction: SignedTransaction) -> Request<String>
 
 | Parameter         | Type                | Description                                                           |
 | ----------------- | ------------------- | --------------------------------------------------------------------- |
-| signedTransaction | `SignedTransaction` | an instance of [SignedTransaction](./#class-signedtransaction) class. |
+| signedTransaction | `SignedTransaction` | an instance of [SignedTransaction](#class-signedtransaction) class. |
 
 **Returns**
 
@@ -679,7 +679,7 @@ func nid(_ nid: String) -> Self
 
 | Parameter | Type     | Description                                                                                                                                       |
 | --------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| nid       | `String` | A network ID. (Mainnet = "0x1", Testnet = "0x2", [etc](https://github.com/icon-project/icon-project.github.io/blob/master/docs/icon\_network.md)) |
+| nid       | `String` | A network ID. (Mainnet = "0x1", Testnet = "0x2", [etc](/icon-stack/icon-networks)) |
 
 **Returns**
 
@@ -768,7 +768,7 @@ class CallTransaction: Transaction
 | method     | The method name of SCORE API. |
 | params     | The input params for method.  |
 
-For details of extended parameters and methods, see [Transaction](./#class-transaction) section.
+For details of extended parameters and methods, see [Transaction](#class-transaction) section.
 
 #### `func` method
 
@@ -836,7 +836,7 @@ class MessageTransaction: Transaction
 | ---------- | ------------------ |
 | message    | A message to send. |
 
-For details of extended parameters and methods, see [Transaction](./#class-transaction) section.
+For details of extended parameters and methods, see [Transaction](#class-transaction) section.
 
 #### `func` message
 
@@ -910,7 +910,7 @@ There are 5 types of errors.
   * decrypt - Failed to decrypt.
   * convert - Failed to convert to URL or data.
 * **error(error: Error)**
-* **message(error: String**) - [JSON RPC Error Messages](broken-reference)
+* **message(error: String**) - [JSON RPC Error Messages](/icon-stack/client-apis/json-rpc-api/v3#json-rpc-error-codes)
 
 ### Converter Functions
 
@@ -1000,6 +1000,6 @@ let hexBigUInt: BigUInt = hexString.hexToBigUInt()! // 100000000000000000000
 
 ### References
 
-* [ICON JSON-RPC API v3](broken-reference)
-* [ICON Network](broken-reference)
+* [ICON JSON-RPC API v3](/icon-stack/client-apis/json-rpc-api/v3)
+* [ICON Network](/icon-stack/icon-networks/main-network)
 
