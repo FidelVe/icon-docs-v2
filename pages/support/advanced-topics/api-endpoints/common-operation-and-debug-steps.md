@@ -2,7 +2,7 @@
 
 
 
-## Quick start to running ICON2 node <a href="#quick-start-to-running-icon2-node" id="quick-start-to-running-icon2-node"></a>
+## Quick start to running ICON2 node 
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ The debug endpoint is different.
 * **ICON2: /api/v3d**
 {% endhint %}
 
-### How to install ICON2 node for MainNet <a href="#how-to-install-icon2-node-for-mainnet" id="how-to-install-icon2-node-for-mainnet"></a>
+### How to install ICON2 node for MainNet
 
 #### **Default Directory Structure**
 
@@ -127,7 +127,7 @@ services:
       - ./logs:/goloop/logs
 ```
 
-## How to check the node state <a href="#how-to-check-the-node-state" id="how-to-check-the-node-state"></a>
+## How to check the node state
 
 * get state
 
@@ -275,7 +275,7 @@ services:
 }
 ```
 
-## Network separation using multiple citizens <a href="#network-separation-using-multiple-citizens" id="network-separation-using-multiple-citizens"></a>
+## Network separation using multiple citizens 
 
 The port used for network separation has been changed.
 
