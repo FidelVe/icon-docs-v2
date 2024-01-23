@@ -1,3 +1,5 @@
+import { Callout } from 'nextra/components'
+
 # Common operation and debug steps
 
 ## Quick start to running ICON2 node
@@ -10,7 +12,7 @@ We recommend running nodes using Docker.
 * Install Docker Compose: [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 * Official Docker Image: `iconloop/icon2-node`
 
-{% hint style="info" %}
+<Callout type="info" emoji="ℹ️">
 **System Requirements**
 
 * CPU: minimum 4core, recommend 8core +
@@ -24,16 +26,16 @@ We recommend running nodes using Docker.
 * TCP 9000: JSON-RPC or RESTful API port serving application requests.\
   P-Rep must allow TCP connections to port 7100 and 9000 of an external host.\
   ( Use `0.0.0.0/0` for a source from any network )
-{% endhint %}
+</Callout>
 
-{% hint style="danger" %}
+<Callout type="warning" emoji="⚠️">
 **ICON1 node must be maintained until the migration is completed,**\
 **ICON2 node must be executed with the new server.**
 
 **The citizen node operated Exchanges and another citizen node must run nodes after the Stage3 migration is complete.**
 
 **SejongNet (TestNet) can be reset at any time.**
-{% endhint %}
+</Callout>
 
 ### **Default Directory Structure**
 
@@ -49,14 +51,14 @@ For example:
 * base directory : `/app/icon2-node`
 * config directory: `/app/icon2-node/config` # location of keystore.json file
 
-{% hint style="warning" %}
+<Callout type="warning" emoji="⚠️">
 If you are P-Rep, you must use the `keystore.json` file used in ICON1.
 
 If they use dual Keystore:
 
 * Fisrt Keystore -> for voting and claim
 * Second Keystore -> for operating goloop node
-{% endhint %}
+</Callout>
 
 ```
 $ mkdir /app/icon2-node # make a base directory
@@ -333,9 +335,9 @@ Exception: [AbstractCommand.cc:351] errorCode=3 URI=http://20.20.6.86:8080/data/
 
 ## How to download ICON2 data (migrated backup data) <a href="#how-to-download-icon2-data-migrated-backup-data" id="how-to-download-icon2-data-migrated-backup-data"></a>
 
-{% hint style="info" %}
+<Callout type="info" emoji="ℹ️">
 If you use docker, it’s not necessary. It is automatically downloaded in docker image.
-{% endhint %}
+</Callout>
 
 ### Installing aria2 <a href="#installing-aria2" id="installing-aria2"></a>
 
@@ -440,8 +442,8 @@ Reuse image goloop/base-all:latest for base-all-3.14-v6.22.1-alpine3.14-e1e83253
 
 | Name                 | Default                 | Type | Required | Description                                                                                |
 | -------------------- | ----------------------- | ---- | -------- | ------------------------------------------------------------------------------------------ |
-| SERVICE              | MainNet                 | str  | false    | <p>Service Name<br>- (MainNet, SejongNet)</p>                                              |
-| ROLE                 | 0                       | int  | true     | <p>Role of running node.</p><ul><li>0: Citizen</li><li>3: P-Rep</li></ul>                  |
+| SERVICE              | MainNet                 | str  | false    | Service Name- (MainNet, SejongNet)                                              |
+| ROLE                 | 0                       | int  | true     | Role of running node.<ul><li>0: Citizen</li><li>3: P-Rep</li></ul>                  |
 | CONFIG\_URL          |                         | str  | false    |                                                                                            |
 | CONFIG\_URL\_FILE    | default\_configure.json | str  | false    |                                                                                            |
 | CONFIG\_LOCAL\_FILE  | configure.json          | str  | false    |                                                                                            |
@@ -452,12 +454,12 @@ Reuse image goloop/base-all:latest for base-all-3.14-v6.22.1-alpine3.14-e1e83253
 | `KEY_PASSWORD`       |                         | str  | true     | password of keystore.json file                                                             |
 | NTP\_SERVER          |                         |      |          | NTP Server                                                                                 |
 | NTP\_REFRESH\_TIME   |                         | int  | false    | ntp refresh time                                                                           |
-| SLACK\_WH\_URL       |                         | str  | false    | <p>slack web hook url<br>- If a problem occurs, you can receive an alarm with a slack.</p> |
-| CHECK\_TIMEOUT       | 10                      | int  | false    | <p>sec<br>- TIMEOUT when calling REST API for monitoring</p>                               |
-| CHECK\_PEER\_STACK   | 6                       | int  | false    | <p>sec<br>- Stack value to check the peer for monitoring.</p>                              |
-| CHECK\_BLOCK\_STACK  | 10                      | int  | false    | <p>sec<br>- Stack value to check the block for monitoring.</p>                             |
-| CHECK\_INTERVAL      | 10                      | int  | false    | <p>sec<br>- check interval for monitoring</p>                                              |
-| CHECK\_STACK\_LIMIT  | 360                     | int  | false    | <p>count<br>- Restart container when stack value is reached</p>                            |
+| SLACK\_WH\_URL       |                         | str  | false    | slack web hook url- If a problem occurs, you can receive an alarm with a slack. |
+| CHECK\_TIMEOUT       | 10                      | int  | false    | sec- TIMEOUT when calling REST API for monitoring                               |
+| CHECK\_PEER\_STACK   | 6                       | int  | false    | sec- Stack value to check the peer for monitoring.                              |
+| CHECK\_BLOCK\_STACK  | 10                      | int  | false    | sec- Stack value to check the block for monitoring.                             |
+| CHECK\_INTERVAL      | 10                      | int  | false    | sec- check interval for monitoring                                              |
+| CHECK\_STACK\_LIMIT  | 360                     | int  | false    | count- Restart container when stack value is reached                            |
 | GOLOOP\_LOG\_LEVEL   | debug                   | str  | false    | info, debug,                                                                               |
 | `LOG_OUTPUT_TYPE`    | file                    | str  | false    | file, both(console\&file)                                                                  |
 

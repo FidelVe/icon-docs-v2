@@ -11,7 +11,7 @@ We recommend all P-Rep candidates to go through this guideline.
 Recovering with a backed-up snapshot dramatically reduces block synchronization time.\
 The backup must be proceeded with the node suspended.
 
-![](/backup-diagram.jpeg)
+![](/images/backup-diagram.jpeg)
 
 Our backup policy is as follows.
 
@@ -40,7 +40,6 @@ backup archive cycle
 #   . AWS access_key & secret_access_key
 #
 
-
 SERVICE=PRep
 BH=`curl -s localhost:9000/api/v1/avail/peer | jq .block_height`
 TODAY=`date "+%Y%m%d"`
@@ -58,8 +57,6 @@ COMPOSE_YML="docker-compose.yml"
 PEER_STATUS=`curl -s -o /dev/null -w "%{http_code}" localhost:9000/api/v1/avail/peer`
 S3_PATH="s3://icon-leveldb-backup/${SERVICE}"
 S3_PATH_PERM="s3://icon-leveldb-backup/Permanent/${SERVICE}"
-
-
 
 start_peer()
 {
@@ -127,13 +124,13 @@ run_main >> ${LOG_DIR}/${LOG_NAME} 2>&1
 
 ### How to restore from snapshot
 
-* restore procedure
+Restore procedure
 * `Stop Node`
 * `Remove Data`
-  * rm -rf ./data/loopchain/.s\*
+  * `rm -rf ./data/loopchain/.s*`
 * `Download backup file from AWS S3`
 * `Unarchive backup file and change the directory names`
-  * ./data/loopchain/.storage/db\_{YOUR\_NODE\_IP}:7100\_icon\_dex
+  * `./data/loopchain/.storage/db_{YOUR_NODE_IP}:7100_icon_dex`
 * `Start Node`
 
 ### Restore script
@@ -215,9 +212,9 @@ Restore_DB
 echo -e "$BLUE DONE.  $NOCOLOR"
 ```
 
-### prep-node's directory structure
+### Prep-node's directory structure
 
-*   Diretory structure
+*   Directory structure
 
     ```
     {P-Rep Install Directory}

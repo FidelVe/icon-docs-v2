@@ -1,3 +1,5 @@
+import { Callout } from 'nextra/components'
+
 # Common operation and debug steps
 
 
@@ -12,7 +14,7 @@ We recommend running nodes using Docker.
 * Install Docker Compose: [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 * Official Docker Image: `iconloop/icon2-node`
 
-{% hint style="info" %}
+<Callout type="info" emoji="ℹ️">
 **System Requirements**
 
 * CPU: minimum 2core, recommend 4core +
@@ -26,16 +28,16 @@ We recommend running nodes using Docker.
 * TCP 9000: JSON-RPC or RESTful API port serving application requests.
 
 P-Rep must allow TCP connections to port 7100 and 9000 of an external host. ( Use 0.0.0.0/0 for a source from any network )
-{% endhint %}
+</Callout>
 
-{% hint style="info" %}
+<Callout type="info" emoji="ℹ️">
 All RESTful APIs are the same as ICON1. However, only the "debug endpoint" of "estimate Step" used for fee inquiry was changed. Only the debug endpoint used for the fee inquiry( estimateStep ) has been changed.
 
 The debug endpoint is different.
 
 * ICON1: /api/debug/v3.
 * **ICON2: /api/v3d**
-{% endhint %}
+</Callout>
 
 ### How to install ICON2 node for MainNet
 

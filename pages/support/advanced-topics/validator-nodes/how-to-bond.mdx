@@ -1,10 +1,12 @@
+import { Callout } from 'nextra/components'
+
 # How to bond
 
 
 
 ## Introduction
 
-For an in depth technical specification of the bond [heads over here](https://docs.google.com/document/d/1WZzbiuMbT7XNKwuGXata20G6B0gnzW7qcGTfCXEpZ1w/edit#heading=h.44sinio).
+For an in depth technical specification of the bond [head over here](https://docs.google.com/document/d/1WZzbiuMbT7XNKwuGXata20G6B0gnzW7qcGTfCXEpZ1w/edit#heading=h.44sinio).
 
 ### Initial settings
 
@@ -12,13 +14,13 @@ When IISS 3.1 will be activated, the **bond requirement will be set to 5%**. The
 
 ## How to post a bond
 
-{% hint style="info" %}
-You can find command line example further down this page
-{% endhint %}
+<Callout type="info" emoji="ℹ️">
+  You can find command line example further down this page
+</Callout>
 
-{% hint style="danger" %}
-If you want to remove your bond, there is an unbonding period of 7 terms, during which your bond can still be slashed
-{% endhint %}
+<Callout type="warning" emoji="⚠️">
+  If you want to remove your bond, there is an unbonding period of 7 terms, during which your bond can still be slashed
+</Callout>
 
 ### Using Keystore
 
@@ -28,11 +30,14 @@ Posting a bond is done in 3 steps:
 2. Whitelisted bonder then must stake ICX to the P-Rep using (howto [Broken link](broken-reference "mention"))
 3. Whitelisted bonder then must post the bond to the P-Rep using (howto [Broken link](broken-reference "mention"))
 
-{% hint style="info" %}
-ICONists can post a bond to up to 100 P-reps, if they are whitelisted by them
 
-A P-Rep can only receive a bond from 10 different ICONists
-{% endhint %}
+
+<Callout type="info" emoji="ℹ️">
+  ICONists can post a bond to up to 100 P-reps, if they are whitelisted by them
+  A P-Rep can only receive a bond from 10 different ICONists
+</Callout>
+
+
 
 You can do this using [https://github.com/icon-project/preptools](https://github.com/icon-project/preptools), the [Broken link](broken-reference "mention")`CallTransactionBuilder` or directly using goloop RPC command[Broken link](broken-reference "mention").
 
@@ -40,25 +45,25 @@ You can do this using [https://github.com/icon-project/preptools](https://github
 
 You can manage your bond through ICONex and Ledger hardware. Here is a quick video to demonstrate the process.
 
-{% embed url="https://drive.google.com/file/d/1_GLURPIsVI3q1PsIw2vomhNanOvuholi/view?usp=sharing" %}
+<Callout type="info" emoji="📼">
+[Watch Video]("https://drive.google.com/file/d/1_GLURPIsVI3q1PsIw2vomhNanOvuholi/view?usp=sharing")
+</Callout>
 
 ## Penalty/Slashing
 
 When a P-Rep does not behave as expected, this bond will be slashed (ICX will be burn) following those specific rules.
 
-{% hint style="info" %}
+<Callout type="info" emoji="ℹ️">
 An **opportunity** is defined as **one term** as Main P-Rep. Therefore, 30 opportunities means the last 30 terms as main P-Rep _(**which can be consecutive or not**)_
 
-\_\_\
 _For example:_
 
 * You are main prep for term1 to term100, you receive one penalty at term 100
 * You are sub prep from term101 to term199
 * You become main prep again from term200, **you still have the previous penalty recorded**
 
-\
 To get rid of all your previous penalties, make sure your node behave properly for 30 opportunities (30 terms as main prep).
-{% endhint %}
+</Callout>
 
 | L0 (Item)                          | L1 (Detailed Item)                     | L2 (Detailed Item) | Description                                                                                                      |
 |------------------------------------|----------------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------|
@@ -83,9 +88,9 @@ To get rid of all your previous penalties, make sure your node behave properly f
 
 ## Command line example to post a bond
 
-{% hint style="info" %}
+<Callout type="info" emoji="ℹ️">
 You can use public endpoints instead of a local node `url/uri`
-{% endhint %}
+</Callout>
 
 ### preptools
 
