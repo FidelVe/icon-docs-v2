@@ -132,6 +132,14 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/concepts/governance/delegates</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/concepts/governance/network-proposals</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/concepts/network/api-endpoints</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -141,14 +149,6 @@
   </url>
   <url>
     <loc>undefined/concepts/network/validator-nodes</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/governance/delegates</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/governance/network-proposals</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -216,15 +216,15 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/icon-networks/main-network</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/icon-stack/icon-execution-environments/java</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>undefined/icon-stack/icon-execution-environments/python-deprecated</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/icon-stack/icon-networks/main-network</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -312,11 +312,15 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/icon-stack/client-apis/swift-sdk/examples</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/icon-stack/client-apis/python-sdk/examples</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis/swift-sdk/examples</loc>
+    <loc>undefined/support/advanced-topics/api-endpoints/common-operation-and-debug-steps</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -328,6 +332,14 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/support/advanced-topics/validator-nodes/backup-and-restore-db-guide</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/support/advanced-topics/validator-nodes/common-operation-and-debug-steps</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/support/advanced-topics/validator-nodes/how-to-bond</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -336,7 +348,15 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/support/advanced-topics/validator-nodes/how-to-collect-centralized-logging</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/support/advanced-topics/validator-nodes/how-to-setup-a-keystore-on-a-validator-node</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/support/advanced-topics/validator-nodes/node-operation-and-configuration</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>

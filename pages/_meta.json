@@ -14,8 +14,7 @@
     }
   },
   "separator1": {
-    "type": "separator",
-    "title": "Getting started"
+    "type": "separator"
   },
   "getting-started": {
     "title": "Getting Started",
@@ -25,8 +24,7 @@
     }
   },
   "separator2": {
-    "type": "separator",
-    "title": "XCALL"
+    "type": "separator"
   },
   "xcall": {
     "title": "XCALL",
@@ -36,8 +34,7 @@
     }
   },
   "separator3": {
-    "type": "separator",
-    "title": "Concepts"
+    "type": "separator"
   },
   "concepts": {
     "title": "Concepts",
@@ -47,8 +44,7 @@
     }
   },
   "separator4": {
-    "type": "separator",
-    "title": "Icon Stack"
+    "type": "separator"
   },
   "icon-stack": {
     "title": "ICON Stack",
@@ -58,8 +54,7 @@
     }
   },
   "separator5": {
-    "type": "separator",
-    "title": "Cross-chain Communication"
+    "type": "separator"
   },
   "cross-chain-communication": {
     "title": "Cross-chain Communication",
@@ -69,8 +64,7 @@
     }
   },
   "separator6": {
-    "type": "separator",
-    "title": "Support"
+    "type": "separator"
   },
   "support": {
     "title": "Support",
@@ -80,8 +74,7 @@
     }
   },
   "separator7": {
-    "type": "separator",
-    "title": "Release Notes"
+    "type": "separator"
   },
   "release-notes": {
     "title": "Release Notes",

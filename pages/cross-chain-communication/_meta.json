@@ -5,5 +5,12 @@
             "layout": "default",
             "breadcrumb": false
         }
+    },
+    "icon-bridge": {
+        "title": "ICON Bridge",
+        "theme": {
+            "layout": "default",
+            "breadcrumb": false
+        }
     }
 }
