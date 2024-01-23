@@ -505,7 +505,7 @@ Register an address as a P-Rep to Blockchain
 | p2pEndpoint | T\_STRING  | true     | <p>Network info used for connecting among P-Rep nodes<br>"123.45.67.89:7100", "node.example.com:7100"</p>                          |
 | nodeAddress | T\_STRING  | False    | <p>Node Key for only consensus<br>"hxe7af5fcfd8dfc67530a01a0e403882687528dfcb"</p>                                                 |
 
-\*details : See [JSON Standard for P-Rep Detailed Information](broken-reference)
+\*details : See [JSON Standard for P-Rep Detailed Information](/getting-started/how-to-run-a-validator-node/json-standard-for-validator-detailed-information#json-standard-for-validator-detailed-information)
 
 #### EventLog
 
@@ -583,7 +583,7 @@ Update P-Rep register information
 | p2pEndpoint | T\_STRING  | false    | <p>Network info used for connecting among P-Rep nodes<br>"123.45.67.89:7100", "node.example.com:7100"</p>                          |
 | nodeAddress | T\_STRING  | false    | <p>Node Key for only consensus<br>"hxe7af5fcfd8dfc67530a01a0e403882687528dfcb"</p>                                                 |
 
-\*details : See [JSON Standard for P-Rep Detailed Information](broken-reference)
+\*details : See [JSON Standard for P-Rep Detailed Information](/getting-started/how-to-run-a-validator-node/json-standard-for-validator-detailed-information#json-standard-for-validator-detailed-information)
 
 #### EventLog
 
@@ -772,7 +772,7 @@ Returns the status of all registered P-Rep candidates in descending order by del
 | startRanking   | T\_INT           | true     | Start ranking of P-Rep list                                              |
 | totalDelegated | T\_INT           | true     | Total delegation amount that all P-Reps receive                          |
 | totalStake     | T\_INT           | true     | The sum of ICX that all ICONists stake                                   |
-| preps          | T\_LIST(T\_DICT) | true     | P-Rep list. Details : refer to [getPRep](economics-extension.md#getPRep) |
+| preps          | T\_LIST(T\_DICT) | true     | P-Rep list. Details : refer to [getPRep](#getprep) |
 
 ### setBonderList
 
@@ -893,14 +893,13 @@ Changes the owner of the score indicated by a given address
 
 
 
-**Parameters**
+#### Parameters
 
 | KEY   | VALUE type | Required | Description                        |
 | ----- | ---------- | :------: | ---------------------------------- |
 | score | T\_ADDRESS |   true   | score address to change its owner  |
 | owner | T\_ADDRESS |   true   | new owner address of a given score |
 
-####
 
 ### getScoreOwner
 
@@ -932,7 +931,7 @@ Returns the owner of the score indicated by a given address
 
 
 
-**Parameters**
+#### Parameters
 
 | KEY   | VALUE type | Required | Description            |
 | ----- | ---------- | :------: | ---------------------- |
@@ -948,12 +947,10 @@ Returns the owner of the score indicated by a given address
 }
 ```
 
-
-
-**Returns**
+#### Returns
 
 Owner address of a given score
 
 ## References
 
-* [Goloop JSON-RPC API v3](broken-reference)
+* [ICON JSON-RPC API v3](/icon-stack/client-apis/json-rpc-api/v3)
