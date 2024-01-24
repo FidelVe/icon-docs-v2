@@ -1,6 +1,6 @@
 # Maintenance API
 
-## Node Management API v0.1.0 <a href="#node-management-api" id="node-management-api"></a>
+## Node Management API v0.1.0 
 
 > Scroll down for example requests and responses.
 
@@ -10,7 +10,7 @@ Base URLs:
 
 * [http://localhost:9080/admin](http://localhost:9080/admin)
 
-## node <a href="#node-management-api-node" id="node-management-api-node"></a>
+## node 
 
 Node Management
 
@@ -22,7 +22,7 @@ Node Management
 
 Return system information.
 
-#### Parameters <a href="#view-system-parameters" id="view-system-parameters"></a>
+#### Parameters 
 
 | Name   | In    | Type   | Required | Description                                   |
 | ------ | ----- | ------ | -------- | --------------------------------------------- |
@@ -51,16 +51,16 @@ Return system information.
 }
 ```
 
-#### Responses <a href="#view-system-responses" id="view-system-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema                                    |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ----------------------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [System](maintenance-api.md#schemasystem) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [System](#system) |
 | 500    | [Internal Server Error](https://tools.ietf.org/html/rfc7231#section-6.6.1) | Internal Server Error | None                                      |
 
 This operation does not require authentication
 
-### View system configuration <a href="#opidgetsystem" id="opidgetsystem"></a>
+### View system configuration 
 
 > Code samples
 
@@ -80,22 +80,22 @@ Return system configuration.
 }
 ```
 
-#### Responses <a href="#view-system-configuration-responses" id="view-system-configuration-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema                                                |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ----------------------------------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [SystemConfig](maintenance-api.md#schemasystemconfig) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [SystemConfig](#systemconfig) |
 | 500    | [Internal Server Error](https://tools.ietf.org/html/rfc7231#section-6.6.1) | Internal Server Error | None                                                  |
 
 This operation does not require authentication
 
-### Configure system <a href="#opidgetsystemconfiguration" id="opidgetsystemconfiguration"></a>
+### Configure system 
 
 > Code samples
 
 `POST /system/configure`
 
-Configure system, configurable properties refer to [SystemConfig](maintenance-api.md#schemasystemconfig)
+Configure system, configurable properties refer to [SystemConfig](#systemconfig)
 
 > Body parameter
 
@@ -106,13 +106,13 @@ Configure system, configurable properties refer to [SystemConfig](maintenance-ap
 }
 ```
 
-#### Parameters <a href="#configure-system-parameters" id="configure-system-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                                      | Required | Description            |
 | ---- | ---- | --------------------------------------------------------- | -------- | ---------------------- |
-| body | body | [ConfigureParam](maintenance-api.md#schemaconfigureparam) | true     | key-value to configure |
+| body | body | [ConfigureParam](#configureparam) | true     | key-value to configure |
 
-#### Responses <a href="#configure-system-responses" id="configure-system-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -121,7 +121,7 @@ Configure system, configurable properties refer to [SystemConfig](maintenance-ap
 
 This operation does not require authentication
 
-### List Backups <a href="#opidconfiguresystem" id="opidconfiguresystem"></a>
+### List Backups 
 
 > Code samples
 
@@ -146,16 +146,16 @@ Return list of backups
 ]
 ```
 
-#### Responses <a href="#list-backups-responses" id="list-backups-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema                                            |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------------------------------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [BackupList](maintenance-api.md#schemabackuplist) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [BackupList](#backuplist) |
 | 500    | [Internal Server Error](https://tools.ietf.org/html/rfc7231#section-6.6.1) | Internal Server Error | None                                              |
 
 This operation does not require authentication
 
-### Restore Status <a href="#opidgetbackups" id="opidgetbackups"></a>
+### Restore Status 
 
 > Code samples
 
@@ -175,17 +175,16 @@ View the status of restoring
 }
 ```
 
-#### Responses <a href="#restore-status-responses" id="restore-status-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema                                                  |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------------------------------------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [RestoreStatus](maintenance-api.md#schemarestorestatus) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [RestoreStatus](#restorestatus) |
 | 500    | [Internal Server Error](https://tools.ietf.org/html/rfc7231#section-6.6.1) | Internal Server Error | None                                                    |
 
 This operation does not require authentication
 
-### Start Restore <a href="#opidgetrestorestatus" id="opidgetrestorestatus"></a>
-
+### Start Restore 
 > Code samples
 
 `POST /system/restore`
@@ -201,13 +200,13 @@ Start to restore chain from the backup
 }
 ```
 
-#### Parameters <a href="#start-restore-parameters" id="start-restore-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                                  | Required | Description                |
 | ---- | ---- | ----------------------------------------------------- | -------- | -------------------------- |
-| body | body | [RestoreParam](maintenance-api.md#schemarestoreparam) | true     | Name of backup and options |
+| body | body | [RestoreParam](#restoreparam) | true     | Name of backup and options |
 
-#### Responses <a href="#start-restore-responses" id="start-restore-responses"></a>
+#### Responses
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -216,7 +215,7 @@ Start to restore chain from the backup
 
 This operation does not require authentication
 
-### Stop Restore <a href="#opidstartrestore" id="opidstartrestore"></a>
+### Stop Restore
 
 > Code samples
 
@@ -224,7 +223,7 @@ This operation does not require authentication
 
 Stop restoring operation
 
-#### Responses <a href="#stop-restore-responses" id="stop-restore-responses"></a>
+#### Responses
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -233,11 +232,11 @@ Stop restoring operation
 
 This operation does not require authentication
 
-## chain <a href="#node-management-api-chain" id="node-management-api-chain"></a>
+## chain 
 
 Chain Management
 
-### List Chains <a href="#opidstoprestore" id="opidstoprestore"></a>
+### List Chains 
 
 > Code samples
 
@@ -262,14 +261,14 @@ Returns a list of chains
 ]
 ```
 
-#### Responses <a href="#list-chains-responses" id="list-chains-responses"></a>
+#### Responses
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | Inline |
 | 500    | [Internal Server Error](https://tools.ietf.org/html/rfc7231#section-6.6.1) | Internal Server Error | None   |
 
-#### Response Schema <a href="#list-chains-responseschema" id="list-chains-responseschema"></a>
+#### Response Schema 
 
 Status Code **200**
 
@@ -277,7 +276,7 @@ _array of chains_
 
 | Name        | Type                                       | Required | Restrictions | Description           |
 | ----------- | ------------------------------------------ | -------- | ------------ | --------------------- |
-| _anonymous_ | \[[Chain](maintenance-api.md#schemachain)] | false    | none         | array of chains       |
+| _anonymous_ | \[[Chain](#chain)] | false    | none         | array of chains       |
 | » cid       | string("0x" + lowercase HEX string)        | false    | none         | chain-id of chain     |
 | » nid       | string("0x" + lowercase HEX string)        | false    | none         | network-id of chain   |
 | » channel   | string                                     | false    | none         | chain-alias of node   |
@@ -287,7 +286,7 @@ _array of chains_
 
 This operation does not require authentication
 
-### Join Chain <a href="#opidlistchain" id="opidlistchain"></a>
+### Join Chain 
 
 > Code samples
 
@@ -317,12 +316,12 @@ json:
 genesisZip: string
 ```
 
-#### Parameters <a href="#join-chain-parameters" id="join-chain-parameters"></a>
+#### Parameters 
 
 | Name                  | In   | Type                                                | Required | Description                                                                                  |
 | --------------------- | ---- | --------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
 | body                  | body | object                                              | true     | Genesis-Storage zip file and json encoded chain-configuration for join chain using multipart |
-| » json                | body | [ChainConfig](maintenance-api.md#schemachainconfig) | true     | json encoded chain-configuration, using multipart 'Content-Disposition: name=json'           |
+| » json                | body | [ChainConfig](#chainconfig) | true     | json encoded chain-configuration, using multipart 'Content-Disposition: name=json'           |
 | »» dbType             | body | string                                              | false    | Name of database system, ReadOnly                                                            |
 | »» seedAddress        | body | string                                              | false    | List of Seed ip-port, Comma separated string, Runtime-Configurable                           |
 | »» role               | body | integer                                             | false    | Role:                                                                                        |
@@ -377,11 +376,11 @@ genesisZip: string
 >
 > 200 Response
 
-#### Responses <a href="#join-chain-responses" id="join-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema                                      |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------------------------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [ChainID](maintenance-api.md#schemachainid) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [ChainID](#chainid) |
 | 409    | [Conflict](https://tools.ietf.org/html/rfc7231#section-6.5.8)              | Conflict              | None                                        |
 | 500    | [Internal Server Error](https://tools.ietf.org/html/rfc7231#section-6.6.1) | Internal Server Error | None                                        |
 
@@ -395,7 +394,7 @@ This operation does not require authentication
 
 Return low-level information about a chain.
 
-#### Parameters <a href="#inspect-chain-parameters" id="inspect-chain-parameters"></a>
+#### Parameters 
 
 | Name     | In    | Type                                | Required | Description                                   |
 | -------- | ----- | ----------------------------------- | -------- | --------------------------------------------- |
@@ -440,17 +439,17 @@ Return low-level information about a chain.
 }
 ```
 
-#### Responses <a href="#inspect-chain-responses" id="inspect-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema                                                |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ----------------------------------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [ChainInspect](maintenance-api.md#schemachaininspect) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [ChainInspect](#chaininspect) |
 | 404    | [Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)             | Not Found             | None                                                  |
 | 500    | [Internal Server Error](https://tools.ietf.org/html/rfc7231#section-6.6.1) | Internal Server Error | None                                                  |
 
 This operation does not require authentication
 
-### Leave Chain <a href="#opidgetchain" id="opidgetchain"></a>
+### Leave Chain 
 
 > Code samples
 
@@ -458,13 +457,13 @@ This operation does not require authentication
 
 Leave Chain.
 
-#### Parameters <a href="#leave-chain-parameters" id="leave-chain-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                | Required | Description       |
 | ---- | ---- | ----------------------------------- | -------- | ----------------- |
 | cid  | path | string("0x" + lowercase HEX string) | true     | chain-id of chain |
 
-#### Responses <a href="#leave-chain-responses" id="leave-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -474,7 +473,7 @@ Leave Chain.
 
 This operation does not require authentication
 
-### Start Chain <a href="#opidleavechain" id="opidleavechain"></a>
+### Start Chain 
 
 > Code samples
 
@@ -482,13 +481,13 @@ This operation does not require authentication
 
 Start Chain.
 
-#### Parameters <a href="#start-chain-parameters" id="start-chain-parameters"></a>
+#### Parameters
 
 | Name | In   | Type                                | Required | Description       |
 | ---- | ---- | ----------------------------------- | -------- | ----------------- |
 | cid  | path | string("0x" + lowercase HEX string) | true     | chain-id of chain |
 
-#### Responses <a href="#start-chain-responses" id="start-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -498,7 +497,7 @@ Start Chain.
 
 This operation does not require authentication
 
-### Stop Chain <a href="#opidstartchain" id="opidstartchain"></a>
+### Stop Chain 
 
 > Code samples
 
@@ -506,13 +505,13 @@ This operation does not require authentication
 
 Stop Chain.
 
-#### Parameters <a href="#stop-chain-parameters" id="stop-chain-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                | Required | Description       |
 | ---- | ---- | ----------------------------------- | -------- | ----------------- |
 | cid  | path | string("0x" + lowercase HEX string) | true     | chain-id of chain |
 
-#### Responses <a href="#stop-chain-responses" id="stop-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -522,7 +521,7 @@ Stop Chain.
 
 This operation does not require authentication
 
-### Reset Chain <a href="#opidstopchain" id="opidstopchain"></a>
+### Reset Chain 
 
 > Code samples
 
@@ -530,13 +529,13 @@ This operation does not require authentication
 
 Reset Chain.
 
-#### Parameters <a href="#reset-chain-parameters" id="reset-chain-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                | Required | Description       |
 | ---- | ---- | ----------------------------------- | -------- | ----------------- |
 | cid  | path | string("0x" + lowercase HEX string) | true     | chain-id of chain |
 
-#### Responses <a href="#reset-chain-responses" id="reset-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -546,7 +545,7 @@ Reset Chain.
 
 This operation does not require authentication
 
-### Import Chain <a href="#opidresetchain" id="opidresetchain"></a>
+### Import Chain
 
 > Code samples
 
@@ -563,14 +562,14 @@ Import a chain from legacy database.
 }
 ```
 
-#### Parameters <a href="#import-chain-parameters" id="import-chain-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                                          | Required | Description       |
 | ---- | ---- | ------------------------------------------------------------- | -------- | ----------------- |
 | cid  | path | string("0x" + lowercase HEX string)                           | true     | chain-id of chain |
-| body | body | [ChainImportParam](maintenance-api.md#schemachainimportparam) | true     | none              |
+| body | body | [ChainImportParam](#chainimportparam) | true     | none              |
 
-#### Responses <a href="#import-chain-responses" id="import-chain-responses"></a>
+#### Responses
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -580,7 +579,7 @@ Import a chain from legacy database.
 
 This operation does not require authentication
 
-### Prune Chain <a href="#opidimportchain" id="opidimportchain"></a>
+### Prune Chain
 
 > Code samples
 
@@ -597,14 +596,14 @@ Prune chain data from the specific height
 }
 ```
 
-#### Parameters <a href="#prune-chain-parameters" id="prune-chain-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                              | Required | Description       |
 | ---- | ---- | ------------------------------------------------- | -------- | ----------------- |
 | cid  | path | string("0x" + lowercase HEX string)               | true     | chain-id of chain |
-| body | body | [PruneParam](maintenance-api.md#schemapruneparam) | true     | none              |
+| body | body | [PruneParam](#pruneparam) | true     | none              |
 
-#### Responses <a href="#prune-chain-responses" id="prune-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -614,7 +613,7 @@ Prune chain data from the specific height
 
 This operation does not require authentication
 
-### Backup Chain <a href="#opidprunechain" id="opidprunechain"></a>
+### Backup Chain
 
 > Code samples
 
@@ -622,13 +621,13 @@ This operation does not require authentication
 
 Backup chain data to the specific file
 
-#### Parameters <a href="#backup-chain-parameters" id="backup-chain-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                | Required | Description       |
 | ---- | ---- | ----------------------------------- | -------- | ----------------- |
 | cid  | path | string("0x" + lowercase HEX string) | true     | chain-id of chain |
 
-#### Responses <a href="#backup-chain-responses" id="backup-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -638,7 +637,7 @@ Backup chain data to the specific file
 
 This operation does not require authentication
 
-### Download Genesis-Storage <a href="#opidbackupchain" id="opidbackupchain"></a>
+### Download Genesis-Storage 
 
 > Code samples
 
@@ -646,7 +645,7 @@ This operation does not require authentication
 
 Download Genesis-Storage zip file
 
-#### Parameters <a href="#download-genesis-storage-parameters" id="download-genesis-storage-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                | Required | Description       |
 | ---- | ---- | ----------------------------------- | -------- | ----------------- |
@@ -656,7 +655,7 @@ Download Genesis-Storage zip file
 >
 > 200 Response
 
-#### Responses <a href="#download-genesis-storage-responses" id="download-genesis-storage-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -666,7 +665,7 @@ Download Genesis-Storage zip file
 
 This operation does not require authentication
 
-### View chain configuration <a href="#opidgetchaingenesis" id="opidgetchaingenesis"></a>
+### View chain configuration 
 
 > Code samples
 
@@ -674,7 +673,7 @@ This operation does not require authentication
 
 Return chain configuration.
 
-#### Parameters <a href="#view-chain-configuration-parameters" id="view-chain-configuration-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                | Required | Description       |
 | ---- | ---- | ----------------------------------- | -------- | ----------------- |
@@ -704,23 +703,23 @@ Return chain configuration.
 }
 ```
 
-#### Responses <a href="#view-chain-configuration-responses" id="view-chain-configuration-responses"></a>
+#### Responses
 
 | Status | Meaning                                                                    | Description           | Schema                                              |
 | ------ | -------------------------------------------------------------------------- | --------------------- | --------------------------------------------------- |
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [ChainConfig](maintenance-api.md#schemachainconfig) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)                    | Success               | [ChainConfig](#chainconfig) |
 | 404    | [Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)             | Not Found             | None                                                |
 | 500    | [Internal Server Error](https://tools.ietf.org/html/rfc7231#section-6.6.1) | Internal Server Error | None                                                |
 
 This operation does not require authentication
 
-### Configure chain <a href="#opidgetchainconfiguration" id="opidgetchainconfiguration"></a>
+### Configure chain 
 
 > Code samples
 
 `POST /chain/{cid}/configure`
 
-Configure chain, configurable properties refer to [ChainConfig](maintenance-api.md#schemachainconfig)
+Configure chain, configurable properties refer to [ChainConfig](#chainconfig)
 
 > Body parameter
 
@@ -731,14 +730,14 @@ Configure chain, configurable properties refer to [ChainConfig](maintenance-api.
 }
 ```
 
-#### Parameters <a href="#configure-chain-parameters" id="configure-chain-parameters"></a>
+#### Parameters 
 
 | Name | In   | Type                                                      | Required | Description            |
 | ---- | ---- | --------------------------------------------------------- | -------- | ---------------------- |
 | cid  | path | string("0x" + lowercase HEX string)                       | true     | chain-id of chain      |
-| body | body | [ConfigureParam](maintenance-api.md#schemaconfigureparam) | true     | key-value to configure |
+| body | body | [ConfigureParam](#configureparam) | true     | key-value to configure |
 
-#### Responses <a href="#configure-chain-responses" id="configure-chain-responses"></a>
+#### Responses 
 
 | Status | Meaning                                                                    | Description           | Schema |
 | ------ | -------------------------------------------------------------------------- | --------------------- | ------ |
@@ -748,9 +747,9 @@ Configure chain, configurable properties refer to [ChainConfig](maintenance-api.
 
 This operation does not require authentication
 
-## Schemas <a href="#opidconfigurechain" id="opidconfigurechain"></a>
+## Schemas 
 
-### ChainID <a href="#tocschainid" id="tocschainid"></a>
+### ChainID 
 
 ```javascript
 "0x782b03"
@@ -758,13 +757,13 @@ This operation does not require authentication
 
 _chain-id of chain, "0x" + lowercase HEX string_
 
-#### Properties <a href="#schemachainid" id="schemachainid"></a>
+#### Properties 
 
 | Name        | Type   | Required | Restrictions | Description                                    |
 | ----------- | ------ | -------- | ------------ | ---------------------------------------------- |
 | _anonymous_ | string | false    | none         | chain-id of chain, "0x" + lowercase HEX string |
 
-### Chain <a href="#tocschain" id="tocschain"></a>
+### Chain 
 
 ```javascript
 {
@@ -777,7 +776,7 @@ _chain-id of chain, "0x" + lowercase HEX string_
 }
 ```
 
-#### Properties <a href="#schemachain" id="schemachain"></a>
+#### Properties
 
 | Name      | Type                                | Required | Restrictions | Description           |
 | --------- | ----------------------------------- | -------- | ------------ | --------------------- |
@@ -788,7 +787,7 @@ _chain-id of chain, "0x" + lowercase HEX string_
 | state     | string                              | false    | none         | state of chain        |
 | lastError | string                              | false    | none         | last error of chain   |
 
-### ChainInspect <a href="#tocschaininspect" id="tocschaininspect"></a>
+### ChainInspect
 
 ```javascript
 {
@@ -823,13 +822,13 @@ _chain-id of chain, "0x" + lowercase HEX string_
 }
 ```
 
-#### Properties <a href="#schemachaininspect" id="schemachaininspect"></a>
+#### Properties 
 
 _allOf_
 
 | Name        | Type                                    | Required | Restrictions | Description |
 | ----------- | --------------------------------------- | -------- | ------------ | ----------- |
-| _anonymous_ | [Chain](maintenance-api.md#schemachain) | false    | none         | none        |
+| _anonymous_ | [Chain](#chain) | false    | none         | none        |
 
 _and_
 
@@ -837,11 +836,11 @@ _and_
 | --------------------------- | --------------------------------------------------- | -------- | ------------ | ------------------- |
 | _anonymous_                 | object                                              | false    | none         | none                |
 | » genesisTx                 | object                                              | false    | none         | Genesis Transaction |
-| » config                    | [ChainConfig](maintenance-api.md#schemachainconfig) | false    | none         | none                |
+| » config                    | [ChainConfig](#chainconfig) | false    | none         | none                |
 | » module                    | object                                              | false    | none         | none                |
 | »» **additionalProperties** | object                                              | false    | none         | none                |
 
-### ChainConfig <a href="#tocschainconfig" id="tocschainconfig"></a>
+### ChainConfig 
 
 ```javascript
 {
@@ -863,7 +862,7 @@ _and_
 }
 ```
 
-#### Properties <a href="#schemachainconfig" id="schemachainconfig"></a>
+#### Properties
 
 | Name               | Type    | Required | Restrictions | Description                                                                                                                           |
 | ------------------ | ------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -899,7 +898,7 @@ _and_
 | nodeCache | small     |
 | nodeCache | large     |
 
-### ChainImportParam <a href="#tocschainimportparam" id="tocschainimportparam"></a>
+### ChainImportParam 
 
 ```javascript
 {
@@ -908,14 +907,14 @@ _and_
 }
 ```
 
-#### Properties <a href="#schemachainimportparam" id="schemachainimportparam"></a>
+#### Properties 
 
 | Name   | Type   | Required | Restrictions | Description   |
 | ------ | ------ | -------- | ------------ | ------------- |
 | dbPath | string | true     | none         | Database path |
 | height | int64  | true     | none         | Block Height  |
 
-### System <a href="#tocssystem" id="tocssystem"></a>
+### System
 
 ```javascript
 {
@@ -936,7 +935,7 @@ _and_
 }
 ```
 
-#### Properties <a href="#schemasystem" id="schemasystem"></a>
+#### Properties 
 
 | Name         | Type                                                  | Required | Restrictions | Description                          |
 | ------------ | ----------------------------------------------------- | -------- | ------------ | ------------------------------------ |
@@ -948,9 +947,9 @@ _and_
 | » p2pListen  | string                                                | false    | none         | p2p listen address                   |
 | » rpcAddr    | string                                                | false    | none         | Listen ip-port of JSON-RPC           |
 | » rpcDump    | boolean                                               | false    | none         | JSON-RPC Request, Response Dump flag |
-| config       | [SystemConfig](maintenance-api.md#schemasystemconfig) | false    | none         | none                                 |
+| config       | [SystemConfig](#systemconfig) | false    | none         | none                                 |
 
-### SystemConfig <a href="#tocssystemconfig" id="tocssystemconfig"></a>
+### SystemConfig 
 
 ```javascript
 {
@@ -960,7 +959,7 @@ _and_
 }
 ```
 
-#### Properties <a href="#schemasystemconfig" id="schemasystemconfig"></a>
+#### Properties 
 
 | Name              | Type    | Required | Restrictions | Description                               |
 | ----------------- | ------- | -------- | ------------ | ----------------------------------------- |
@@ -968,7 +967,7 @@ _and_
 | rpcDefaultChannel | string  | false    | none         | default channel for legacy api            |
 | rpcIncludeDebug   | boolean | false    | none         | JSON-RPC Response with detail information |
 
-### ConfigureParam <a href="#tocsconfigureparam" id="tocsconfigureparam"></a>
+### ConfigureParam 
 
 ```javascript
 {
@@ -977,14 +976,14 @@ _and_
 }
 ```
 
-#### Properties <a href="#schemaconfigureparam" id="schemaconfigureparam"></a>
+#### Properties
 
 | Name  | Type   | Required | Restrictions | Description              |
 | ----- | ------ | -------- | ------------ | ------------------------ |
 | key   | string | true     | none         | configuration field name |
 | value | string | true     | none         | configuration value      |
 
-### PruneParam <a href="#tocspruneparam" id="tocspruneparam"></a>
+### PruneParam
 
 ```javascript
 {
@@ -993,14 +992,14 @@ _and_
 }
 ```
 
-#### Properties <a href="#schemapruneparam" id="schemapruneparam"></a>
+#### Properties 
 
 | Name   | Type   | Required | Restrictions | Description   |
 | ------ | ------ | -------- | ------------ | ------------- |
 | dbType | string | false    | none         | Database type |
 | height | int64  | true     | none         | Block Height  |
 
-### BackupList <a href="#tocsbackuplist" id="tocsbackuplist"></a>
+### BackupList
 
 ```javascript
 [
@@ -1015,11 +1014,11 @@ _and_
 ]
 ```
 
-#### Properties <a href="#schemabackuplist" id="schemabackuplist"></a>
+#### Properties
 
 _None_
 
-### RestoreStatus <a href="#tocsrestorestatus" id="tocsrestorestatus"></a>
+### RestoreStatus
 
 ```javascript
 {
@@ -1029,7 +1028,7 @@ _None_
 }
 ```
 
-#### Properties <a href="#schemarestorestatus" id="schemarestorestatus"></a>
+#### Properties
 
 | Name      | Type    | Required | Restrictions | Description                                                        |
 | --------- | ------- | -------- | ------------ | ------------------------------------------------------------------ |
@@ -1037,7 +1036,7 @@ _None_
 | name      | string  | false    | none         | Name of backup                                                     |
 | overwrite | boolean | false    | none         | Whether it replaces existing chain data                            |
 
-### RestoreParam <a href="#tocsrestoreparam" id="tocsrestoreparam"></a>
+### RestoreParam 
 
 ```javascript
 {
@@ -1046,7 +1045,7 @@ _None_
 }
 ```
 
-#### Properties <a href="#schemarestoreparam" id="schemarestoreparam"></a>
+#### Properties
 
 | Name      | Type    | Required | Restrictions | Description                        |
 | --------- | ------- | -------- | ------------ | ---------------------------------- |
