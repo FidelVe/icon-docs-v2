@@ -1,14 +1,14 @@
 # Register PRep Node Public Key
 
-The process of registering a PRep Node Public Key requires you to first generate a public key from the node wallet and then invoke the [`registerPRepNodePublicKey`](https://github.com/icon-project/goloop/blob/master/doc/icon_chainscore_api.md#registerprepnodepublickey) method of the chain contract (`cx000..00`).
+The process of registering a PRep Node Public Key requires you to first generate a public key from the node wallet and then invoke the [registerPRepNodePublicKey](https://github.com/icon-project/goloop/blob/master/doc/icon_chainscore_api.md#registerprepnodepublickey) method of the chain contract (`cx000..00`).
 
 ## Using goloop CLI
 
-If you dont have the goloop CLI installed in your computer please follow [these instructions](https://docs.icon.community/concepts/computational-utilities/goloop/setup).
+If you dont have the goloop CLI installed in your computer please follow [these instructions](../../concepts/computational-utilities/goloop/setup).
 
 ### Check if a Public Key exists
 
-To verify if a PRep address has already registered a Public Key using the [goloop CLI](https://docs.icon.community/concepts/computational-utilities/goloop) you can use the following command:
+To verify if a PRep address has already registered a Public Key using the [goloop CLI](../../concepts/computational-utilities/goloop) you can use the following command:
 
 ```bash
 goloop rpc call --to cx0000000000000000000000000000000000000000 \
@@ -18,20 +18,20 @@ goloop rpc call --to cx0000000000000000000000000000000000000000 \
 ```
 Replace the address with your prep address.
 
-If the response emits `“null”`, you need to register the public key.  If it emits a hex string value, thats the Public Key and no further action is required.
+If the response emits `null`, you need to register the public key.  If it emits a hex string value, thats the Public Key and no further action is required.
 
-Alternatively you can use the tracker, click on the "Contract" tab, and find the `getPRepNodePublicKey` method. You should then enter your P-Rep's address. 
+Alternatively you can use the tracker, click on the "Contract" tab, and find the `getPRepNodePublicKey` method. You should then enter your P-Rep's address.
 
 Link: https://tracker.icon.community/contract/cx0000000000000000000000000000000000000000
 
 ### Generate Public Key
 
-To generate the Public Key using the [goloop CLI](https://docs.icon.community/concepts/computational-utilities/goloop) you can use the `goloop ks pubkey` [command](https://github.com/icon-project/goloop/blob/master/doc/goloop_cli.md#goloop-ks-pubkey) command as shown in the following example:
+To generate the Public Key using the [goloop CLI](../../concepts/computational-utilities/goloop) you can use the `goloop ks pubkey` [command](https://github.com/icon-project/goloop/blob/master/doc/goloop_cli.md#goloop-ks-pubkey) command as shown in the following example:
 
 ```bash
 goloop ks pubkey -k KEYSTORE_FILE.json -p KEYSTORE_PASSWORD
 ```
-> Note: If you are using a node address, use that keystore and password to generate the public address. 
+> Note: If you are using a node address, use that keystore and password to generate the public address.
 
 ### Register Public Key
 
@@ -49,15 +49,15 @@ goloop rpc sendtx call --to cx0000000000000000000000000000000000000000 \
  --step_limit 0x30000
 ```
 
-Alternatively you can use the tracker. Use your prep address and the public key as the inputs to the transaction for the `registerPRepNodePublicKey` method. 
+Alternatively you can use the tracker. Use your prep address and the public key as the inputs to the transaction for the `registerPRepNodePublicKey` method.
 
 ## Using Javascript and curl
 
 ### Check if a Public Key exists
 
-You can verify if your PRep node has already registered a Public Key by calling the [`getPRep`](https://docs.icon.community/icon-stack/client-apis/json-rpc-api/v3#getprep) method of the chain contract.
+You can verify if your PRep node has already registered a Public Key by calling the [getPRep](https://github.com/icon-project/goloop/blob/master/doc/icon_chainscore_api.md#getprep) method of the chain contract.
 
-The response object will have a param called [`hasPublicKey`](https://docs.icon.community/icon-stack/client-apis/javascript-sdk#getpublickey) showing if a Public Key has already been registered or not.
+The response object will have a param called `hasPublicKey` showing if a Public Key has already been registered or not.
 
 The following curl command showcase how to call the `getPRep` readonly method of the chain contract.
 
@@ -99,10 +99,9 @@ The following example shows the response of the call.
 
 ### Generate Public Key
 
-You can also use the [`icon-sdk-js`](https://docs.icon.community/icon-stack/client-apis/javascript-sdk) and call the `.getPublicKey(bool)` method of the [`IconWallet` object](https://docs.icon.community/icon-stack/client-apis/javascript-sdk#iconservice-iconwallet-wallet) to generate a Public key.
+You can also use the [icon-sdk-js](https://github.com/icon-project/icon-sdk-js) and call the `.getPublicKey(bool)` method of the [`IconWallet` object](https://github.com/icon-project/icon-sdk-js?tab=readme-ov-file#iconserviceiconwallet-wallet) to generate a Public key.
 
 ```
-
 /**
 * Get public key of wallet instance.
 * param {bool} compressed - Select compressed or uncompressed key
@@ -111,7 +110,7 @@ You can also use the [`icon-sdk-js`](https://docs.icon.community/icon-stack/clie
 */
 ```
 
-Instantiate a wallet object from the [IconWallet object class](https://docs.icon.community/icon-stack/client-apis/javascript-sdk#iconservice-iconwallet-wallet) using your private key and call the `.getPublicKey(true)` method to get your wallet private key.
+Instantiate a wallet object from the [IconWallet object class](https://github.com/icon-project/icon-sdk-js?tab=readme-ov-file#iconserviceiconwallet-wallet) using your private key and call the `.getPublicKey(true)` method to get your wallet private key.
 
 ```js
 // Load wallet object

@@ -100,7 +100,7 @@ To transfer to any of the other wallets, replace the `“to”` address with the
 
 ### Registering the nodes as validators.
 
-The process of registering a node as a validator requires signing a transaction with the [\`registerPRep\` method](https://docs.icon.community/v/icon1/references/reference-manuals/icon-json-rpc-api-v3-specification#registerprep), paying _2000_ ICX and sending a JSON formatted data with the validator information in the following format:
+The process of registering a node as a validator requires signing a transaction with the [registerPRep method](https://github.com/icon-project/goloop/blob/master/doc/icon_chainscore_api.md#registerprep), paying _2000_ ICX and sending a JSON formatted data with the validator information in the following format:
 
 ```json
 {
@@ -235,8 +235,8 @@ $ curl -X POST --data @rpc-data.json http://localhost:9080/api/v3
 
 The process of setting up bond on each validator requires the following two steps:
 
-* Sign a transaction with each validator wallet calling the [`setBonderList`](https://github.com/icon-project/devportal/blob/1f63be996ea77f953a8dbfb72dda0becdd3da4ad/icon-2.0/goloop/json-rpc/iiss\_extension.md#setbonderlist) method of the governance contract, to setup which wallets can place bonds for the validator.
-* Place the bond with the wallet that was previously whitelisted in the previous step by signing a transaction calling the [`setBond`](https://github.com/icon-project/devportal/blob/e791e8a762eee66e77b20946efa871566a5093d8/icon-stack/client-apis/json-rpc-api/economics-extension.md#setbond) method of the governance wallet.
+* Sign a transaction with each validator wallet calling the [setBonderList](https://github.com/icon-project/goloop/blob/master/doc/icon_chainscore_api.md#setbonderlist) method of the governance contract, to setup which wallets can place bonds for the validator.
+* Place the bond with the wallet that was previously whitelisted in the previous step by signing a transaction calling the [setBond](https://github.com/icon-project/goloop/blob/master/doc/icon_chainscore_api.md#setbond) method of the governance wallet.
 
 #### Signing transactions for the `setBonderList` method.
 
@@ -333,10 +333,3 @@ After finishing the process of funding the node wallets, registering the wallets
 ```bash
 curl -X POST --data @rpc-data.json http://localhost:9080/api/v3
 ```
-
-### Resources
-
-* [https://github.com/icon-project/gochain-local](https://github.com/icon-project/gochain-local)
-* [https://github.com/icon-project/btp/blob/iconloop-v2/e2edemo/scripts/setup/setup\_node.ts](https://github.com/icon-project/btp/blob/iconloop-v2/e2edemo/scripts/setup/setup\_node.ts)
-* [https://docs.icon.community/v/icon1/icon-sdks/javascript](https://docs.icon.community/v/icon1/icon-sdks/javascript)&#x20;
-* [https://docs.icon.community/v/icon1/references/reference-manuals/icon-json-rpc-api-v3-specification](https://docs.icon.community/v/icon1/references/reference-manuals/icon-json-rpc-api-v3-specification)&#x20;

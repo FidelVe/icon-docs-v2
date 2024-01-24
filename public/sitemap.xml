@@ -168,10 +168,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-write-a-smart-contract/how-to-estimate-required-step</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/getting-started/how-to-run-a-validator-node/json-standard-for-validator-detailed-information</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -181,6 +177,10 @@
   </url>
   <url>
     <loc>undefined/getting-started/how-to-run-a-validator-node/register-prep-node-public-key</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/getting-started/how-to-write-a-smart-contract/how-to-estimate-required-step</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -316,11 +316,15 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis/swift-sdk/examples</loc>
+    <loc>undefined/icon-stack/client-apis/json-rpc-api/v3</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>undefined/icon-stack/client-apis/python-sdk/examples</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/icon-stack/client-apis/swift-sdk/examples</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>

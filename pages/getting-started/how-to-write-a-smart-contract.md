@@ -5,7 +5,7 @@ A smart contract is a self-contained program that is stored and replicated on a 
 In the following guide we are going to explain in detail the process of:
 
 * Setting up the development environment for writing a smart contract on ICON
-* Writing a sample smart contract that will work as a poll for people to cast a vote “Yes” or “No”.&#x20;
+* Writing a sample smart contract that will work as a poll for people to cast a vote “Yes” or “No”.
 * Compile, optimize and deploy the smart contract.
 * And finally we are going to interact with the smart contract via RPC calls.
 
@@ -13,7 +13,7 @@ In the following guide we are going to explain in detail the process of:
 
 For setting the development environment we need to install the following programs:
 
-* Install OpenJDK, go, and goloop. Follow [these instructions to install goloop](https://docs.icon.community/concepts/computational-utilities/goloop/setup) (this has instructions for OpenJDK, go and goloop).
+* Install OpenJDK, go, and goloop. Follow [these instructions to install goloop](../concepts/computational-utilities/goloop/setup) (this has instructions for OpenJDK, go and goloop).
 * [Install gradle](https://docs.gradle.org/current/userguide/installation.html)
 
 For the smart contract deployment you can either choose to deploy on a testnet in the ICON Blockchain or run a local network.
@@ -23,8 +23,7 @@ If you want to deploy to a testnet you will need to have ICX in your selected te
 [https://faucet.iconosphere.io/](https://faucet.iconosphere.io/)
 
 For setting up a local network, you can follow this guide:
-
-{% embed url="https://docs.icon.community/getting-started/how-to-run-a-local-network" %}
+[How to run a local network](how-to-run-a-local-network)
 
 ### Creating the project workspace with gradle
 
@@ -38,7 +37,7 @@ cd ~/poll-contract
 Inside the folder we are going to initialize a project using gradle. If you are unfamiliar with gradle please refer to [their documentation](https://docs.gradle.org/current/userguide/what\_is\_gradle.html).
 
 ```bash
-$gradle init
+gradle init
 ```
 
 The selected options are the following:
@@ -48,7 +47,7 @@ The selected options are the following:
 * Split functionality across multiple sub-projects?: 1
 * Select build script DSL: 1
 * Generate build using new APIs and behavior (some features may change in the next minor release)? (default: no) \[yes, no]  yes
-* Select test framework: 4&#x20;
+* Select test framework: 4
 * Project name (default: poll-contract): poll-contract
 * Source package (default: poll.contract): poll.contract
 
@@ -85,7 +84,7 @@ The following folder structure will be created:
 
 The `build.gradle` file is used to create [build scripts](https://docs.gradle.org/current/userguide/writing\_build\_scripts.html). In ICON, we use it to specify dependencies and write tasks.
 
-After creating the workspace, you need to create one build.gradle file at the root of the project with the following code.
+After creating the workspace, you need to create one `build.gradle` file at the root of the project with the following code.
 
 <pre class="language-groovy"><code class="lang-groovy">buildscript {
   repositories {
@@ -115,8 +114,8 @@ subprojects {
 }
 </code></pre>
 
-This specifies the project to use the [gradle javaee plugin](https://github.com/icon-project/gradle-javaee-plugin) which is specifically created for smart contract development in ICON. Each subproject (in above tree structure, app folder) would have its own `build.gradle` file. There are 2 additional tasks you would need to add to optimize and deploy the jar file.\
-\
+This specifies the project to use the [gradle javaee plugin](https://github.com/icon-project/gradle-javaee-plugin) which is specifically created for smart contract development in ICON. Each subproject (in above tree structure, app folder) would have its own `build.gradle` file. There are 2 additional tasks you would need to add to optimize and deploy the jar file.
+
 Edit the `app/build.gradle` file to have the following data:
 
 ```groovy
@@ -175,32 +174,32 @@ class AppTest {
 Edit the `app/src/main/java/poll/contract/App.java` to have the following code:
 
 ```java
-package poll.contract; 
-                                                                             	 
-import score.Address;                                                        	 
-import score.Context;                                                        	 
-import score.VarDB;                                                          	 
-import score.annotation.External;                                            	 
-import score.DictDB;                                                         	 
-                                                                             	 
-import java.math.BigInteger;                                                 	 
-                                                                             	 
-public class App {                                                           	 
-    private static final String VOTER_ADDRESS = "voterAddress";   
-    // Dict of votes per each address           	 
+package poll.contract;
+
+import score.Address;
+import score.Context;
+import score.VarDB;
+import score.annotation.External;
+import score.DictDB;
+
+import java.math.BigInteger;
+
+public class App {
+    private static final String VOTER_ADDRESS = "voterAddress";
+    // Dict of votes per each address
     final static DictDB<String, String> voters = Context.newDictDB(VOTER_ADDRESS, String.class);
-    // Counter of “no” votes                                                               	 
-    private final VarDB<BigInteger> countOfNo = Context.newVarDB("countOfNo", BigInteger.class);      
-    // Counter of “yes” votes                                                         	 
-    private final VarDB<BigInteger> countOfYes = Context.newVarDB("countOfYes", BigInteger.class);                                                             	 
-                    
+    // Counter of “no” votes
+    private final VarDB<BigInteger> countOfNo = Context.newVarDB("countOfNo", BigInteger.class);
+    // Counter of “yes” votes
+    private final VarDB<BigInteger> countOfYes = Context.newVarDB("countOfYes", BigInteger.class);
+
     /*
     * Adds a vote of “yes” with the caller address
-    */                                                         	 
-    @External                                                                	 
-    public String addVoteYes() {                                             	 
-        Address _caller = Context.getCaller();                               	 
-        String _addressVote = voters.getOrDefault(_caller.toString(), "null");    
+    */
+    @External
+    public String addVoteYes() {
+        Address _caller = Context.getCaller();
+        String _addressVote = voters.getOrDefault(_caller.toString(), "null");
         String result = "Account already voted";
         if (_addressVote == "null") {
             result = "Voted Yes";
@@ -212,7 +211,7 @@ public class App {
 
     /*
     * Adds a vote of “no” with the caller address
-    */     
+    */
     @External
     public String addVoteNo() {
         Address _caller = Context.getCaller();
@@ -228,7 +227,7 @@ public class App {
 
     /*
     * Checks the vote of the specified address
-    */     
+    */
     @External(readonly=true)
     public String checkVote(String _address) {
         return voters.get(_address);
@@ -236,7 +235,7 @@ public class App {
 
     /*
     * Gets the count of all votes
-    */     
+    */
     @External(readonly=true)
     public BigInteger getVotesResult() {
         return countOfNo.getOrDefault(BigInteger.ZERO).add(countOfYes.getOrDefault(BigInteger.ZERO));
@@ -338,41 +337,41 @@ $ npm install --save-dev icon-sdk-js
 Create an `index.js` file and add the following code in it:
 
 ```javascript
-const IconService = require("icon-sdk-js");                                          
-const fs = require("fs");                                                            
-                                                                                     
-const {                                                                              
-  IconWallet,                                                                        
-  IconBuilder,                                                                       
-  SignedTransaction,                                                                 
-  IconConverter,                                                                     
-  HttpProvider,                                                                      
-} = IconService.default;                                                             
-                                                                                     
-const { DeployTransactionBuilder } = IconBuilder;                                    
-                                                                                     
-// add the path to the keystore file                                                 
-const keystorePath = "/path/to/keystore.json";                                       
-// add the password of the keystore file                                             
-const keystorePWD = "gochain";                                                       
-// port to the local network                                                         
-const port = 9080;                                                                   
-// hostname of the local network                                                     
-const hostname = "localhost";                                                        
-// url of the local node                                                             
-const apiNode = `http://${hostname}:${port}/api/v3`;                                 
-// select the correct NID depending on the network                                   
-// https://docs.icon.community/icon-stack/icon-networks/main-network                 
-const nid = 3;                                                                       
-// instantiate httProvider and iconService                                           
-const httpProvider = new HttpProvider(apiNode);                                      
-const iconService = new IconService.default(httpProvider);                           
-// path to the compiled contract                                                     
-const scorePath = "./app/build/libs/poll-contract-optimized.jar";                    
-                                                                                     
-// Function to deploy the smart contract                                             
-function deployContract(keystore, pwd, content) {                                    
-  const walletKs = getKeystore(keystore);                                            
+const IconService = require("icon-sdk-js");
+const fs = require("fs");
+
+const {
+  IconWallet,
+  IconBuilder,
+  SignedTransaction,
+  IconConverter,
+  HttpProvider,
+} = IconService.default;
+
+const { DeployTransactionBuilder } = IconBuilder;
+
+// add the path to the keystore file
+const keystorePath = "/path/to/keystore.json";
+// add the password of the keystore file
+const keystorePWD = "gochain";
+// port to the local network
+const port = 9080;
+// hostname of the local network
+const hostname = "localhost";
+// url of the local node
+const apiNode = `http://${hostname}:${port}/api/v3`;
+// select the correct NID depending on the network
+// https://docs.icon.community/icon-stack/icon-networks/main-network
+const nid = 3;
+// instantiate httProvider and iconService
+const httpProvider = new HttpProvider(apiNode);
+const iconService = new IconService.default(httpProvider);
+// path to the compiled contract
+const scorePath = "./app/build/libs/poll-contract-optimized.jar";
+
+// Function to deploy the smart contract
+function deployContract(keystore, pwd, content) {
+  const walletKs = getKeystore(keystore);
   const walletLoaded = IconWallet.loadKeystore(walletKs, pwd);
   // Create tx object for contract deployment
   const txObj = new DeployTransactionBuilder()
@@ -380,11 +379,11 @@ function deployContract(keystore, pwd, content) {
     .to("cx0000000000000000000000000000000000000000")
     .stepLimit(IconConverter.toBigNumber("2500000000"))
     .nid(IconConverter.toBigNumber(nid))
-    .nonce(IconConverter.toBigNumber("1")) 
+    .nonce(IconConverter.toBigNumber("1"))
     .version(IconConverter.toBigNumber("3"))
     .timestamp(new Date().getTime() * 1000)
     .contentType("application/java")
-    .content(content) 
+    .content(content)
     .build();
 
   // Sign transaction with wallet
@@ -402,7 +401,7 @@ async function main() {
   try {
     // Read smart contract and encode into hex string
     const scoreContentInHex = "0x" + fs.readFileSync(scorePath).toString("hex");
-     
+
     // get signed transaction
     const signedTx = deployContract(keystorePath, keystorePWD, scoreContentInHex);
     console.log(`signed tx: ${JSON.stringify(signedTx.getProperties())}`);
@@ -411,7 +410,7 @@ async function main() {
     console.log(tx);
   } catch (err) {
     console.log("Unexpected error signing transaction");
-    console.log(err); 
+    console.log(err);
     return null;
   }
 }
@@ -464,24 +463,24 @@ $ curl -X POST --data '{"jsonrpc":"2.0","method":"icx_getScoreApi","id":121,"par
 The result of calling `icx_getScoreApi` to the contract we have just created would be the following:
 
 ```json
-{                                                                    
-  "jsonrpc": "2.0",                                                           
-  "result": [                                                                 
-{                                                                         
-   "inputs": [],                                                           
-   "name": "addVoteYes",                                                   
-   "outputs": [                                                            
-     {                                                                     
-       "type": "str"                                                       
-     }                                                                     
-   ],                                                                      
-   "type": "function"                                                      
-},                                                                        
-{                                                                         
-   "inputs": [],                                                           
-   "name": "addVoteNo",                                                    
-   "outputs": [                                                            
-     {                                                                     
+{
+  "jsonrpc": "2.0",
+  "result": [
+{
+   "inputs": [],
+   "name": "addVoteYes",
+   "outputs": [
+     {
+       "type": "str"
+     }
+   ],
+   "type": "function"
+},
+{
+   "inputs": [],
+   "name": "addVoteNo",
+   "outputs": [
+     {
        "type": "str"
      }
    ],
@@ -521,12 +520,5 @@ The result of calling `icx_getScoreApi` to the contract we have just created wou
 
 For calling the methods in a smart contract we have 2 main RPC JSON methods to use:
 
-* &#x20;`icx_call`: for readonly methods ([link](https://docs.icon.community/icon-stack/client-apis/json-rpc-api/v3#icx\_call)).
-* &#x20;`icx_sendTransaction`: for write methods. These calls require the RPC json to be signed using the private key. ([link](https://docs.icon.community/icon-stack/client-apis/json-rpc-api/v3#icx\_sendtransaction))
-
-### Resources:
-
-* Java smart contract tutorials part 1. [https://icon.community/tutorials/java-tutorial-part-1-setting-development-environment-and-writing-smart-contract/](https://icon.community/tutorials/java-tutorial-part-1-setting-development-environment-and-writing-smart-contract/)
-* Java smart contract tutorials part 2. [https://icon.community/tutorials/java-tutorial-part-2-deploying-the-smart-contract-and-interacting-with-the-smart-contract-onchain/](https://icon.community/tutorials/java-tutorial-part-2-deploying-the-smart-contract-and-interacting-with-the-smart-contract-onchain/)
-* Java smart contract tutorials part 3. [https://icon.community/tutorials/java-tutorial-part-3-unit-testing/](https://icon.community/tutorials/java-tutorial-part-3-unit-testing/)
-* [ICON Stack - Smart Contracts](../../icon-stack/smart-contracts/)
+* `icx_call`: for readonly methods ([link](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md#icx_call)).
+* `icx_sendTransaction`: for write methods. These calls require the RPC json to be signed using the private key. ([link](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md#icx_sendtransaction))
