@@ -21,7 +21,7 @@
     }
   },
   "computational-utilities": {
-    "title": "Blockchain Components",
+    "title": "Computational Utilities",
     "theme": {
       "layout": "default",
       "breadcrumb": false

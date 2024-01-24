@@ -10,7 +10,7 @@ ICON supports multi-threaded code due to support from the JVM. This means that m
 
 #### Data  storage
 
-The Java execution environment uses a combination of the [Java Object Graph](https://www.tutorialspoint.com/object-graph-in-java-serialization) as well as the typical [Merkle Patricia Tree](https://eth.wiki/fundamentals/patricia-tree). All objects must be serializable. The contract developer can choose to place objects into the object graph or the tree. If the object is specified to be associated with either VarDB, ArrayDB, or DictDB, then it will be stored as a key-value pair in the merkle tree.
+The Java execution environment uses a combination of the [Java Object Graph](https://www.tutorialspoint.com/object-graph-in-java-serialization) as well as the typical [Merkle Patricia Tree](https://ethereum.org/developers/docs/data-structures-and-encoding/patricia-merkle-trie). All objects must be serializable. The contract developer can choose to place objects into the object graph or the tree. If the object is specified to be associated with either VarDB, ArrayDB, or DictDB, then it will be stored as a key-value pair in the merkle tree.
 
 Else, it will go into the object graph. Storing data in the object graph is very expensive, as the entire object must be copied and stored each time that the object is modified. For those who are curious, the object graph is stored as a [heap](https://en.wikipedia.org/wiki/Heap\_\(data\_structure\)).
 
