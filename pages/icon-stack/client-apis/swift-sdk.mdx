@@ -6,7 +6,7 @@ ICON supports SDK for 3rd party or user services development. You can integrate 
 
 ### `class` ICONService
 
-`ICONService` is a class which provides APIs to communicate with ICON nodes. It enables you to easily use [ICON JSON-RPC APIs](json-rpc-api/v3) (version 3). All methods of `IconService` returns a `Request<T, ICError>` instance.
+`ICONService` is a class which provides APIs to communicate with ICON nodes. It enables you to easily use [ICON JSON-RPC APIs](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md) (version 3). All methods of `IconService` returns a `Request<T, ICError>` instance.
 
 #### Query Execution
 
@@ -114,7 +114,7 @@ init(provider: String, nid: String)
 | provider  | `String` | ICON node url. |
 | nid       | `String` | Network ID.    |
 
-For more details of node URL and network id, see [ICON Network](/icon-stack/icon-networks/main-network) document.
+For more details of node URL and network id, see [ICON Network](/icon-stack/icon-networks) document.
 
 **Example**
 
@@ -218,7 +218,7 @@ In `Call` generic value, input the type of function call. The generic value shou
 For example, the type of SCORE function call is `String`, input `String` like this.
 
 ```swift
-// Create Call instance 
+// Create Call instance
 let call = Call<String>(from: wallet.address, to: "cxf9148db4f8ec78823a50cb06c4fed83660af38d0", method: "tokenOwner", params: nil)
 
 let request: Request<String> = iconService.call(call)
@@ -910,7 +910,7 @@ There are 5 types of errors.
   * decrypt - Failed to decrypt.
   * convert - Failed to convert to URL or data.
 * **error(error: Error)**
-* **message(error: String**) - [JSON RPC Error Messages](/icon-stack/client-apis/json-rpc-api/v3#json-rpc-error-codes)
+* **message(error: String**) - [JSON RPC Error Messages](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md)
 
 ### Converter Functions
 
@@ -1000,6 +1000,5 @@ let hexBigUInt: BigUInt = hexString.hexToBigUInt()! // 100000000000000000000
 
 ### References
 
-* [ICON JSON-RPC API v3](/icon-stack/client-apis/json-rpc-api/v3)
-* [ICON Network](/icon-stack/icon-networks/main-network)
-
+* [ICON JSON-RPC API v3](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md)
+* [ICON Network](/icon-stack/icon-networks)

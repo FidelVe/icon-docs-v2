@@ -12,7 +12,7 @@ On ICON, a transaction has an associated identity value, also referred to as a _
 
 ### Performing a transaction
 
-The three main categories of ways to perform a transaction are as follows: through the [Hana wallet](https://icon.community/hanawallet/), through a [decentralized application (dApp)](/concepts/decentralized-applications-dapps), or via the [ICON JSON-RPC API](/icon-stack/client-apis).
+The three main categories of ways to perform a transaction are as follows: through the [Hana wallet](https://icon.community/hanawallet/), through a [decentralized application (dApp)](/concepts/decentralized-applications-dapps), or via the [ICON JSON-RPC API](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md).
 
 To use Hana wallet, you must first [create an account](accounts.md#creating-an-account). Then, open the wallet via web browser and perform a transaction.
 
@@ -30,11 +30,11 @@ For users that intend to perform transaction queries in a programmatic way throu
 
 **Check the Transaction Validation using the JSON-RPC API**
 
-If you get the transaction hash as a response to sending a transaction to the ICON network, this means that your transaction has passed the validation. ICON network returns the transaction hash only when a transaction is valid. For specific information about this process, see the JSON-RPC APIs "icx\_sendTransaction" section of the [ICON JSON-RPC API v3 Specification](/icon-stack/client-apis/json-rpc-api/v3) documentation.
+If you get the transaction hash as a response to sending a transaction to the ICON network, this means that your transaction has passed the validation. ICON network returns the transaction hash only when a transaction is valid. For specific information about this process, see the JSON-RPC APIs `icx_sendTransaction` section of the [ICON JSON-RPC API v3 Specification](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md) documentation.
 
 **Check the Transaction Confirmation using the JSON-RPC API**
 
-You can check if a transaction is confirmed or pending using "icx\_getTransactionResult" JSON-RPC API. "Pending" means that a transaction is in the transaction pool or block generation stage (except in the case of consensus failure on the block, it can be temporarily marked as "pending"). For specific information about this process, see the JSON-RPC APIs "icx\_getTransactionResult" section of the [ICON JSON-RPC API v3 Specification](/icon-stack/client-apis/json-rpc-api/v3) documentation.
+You can check if a transaction is confirmed or pending using `icx_getTransactionResult` JSON-RPC API. "Pending" means that a transaction is in the transaction pool or block generation stage (except in the case of consensus failure on the block, it can be temporarily marked as "pending"). For specific information about this process, see the JSON-RPC APIs `icx_getTransactionResult` section of the [ICON JSON-RPC API v3 Specification](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md) documentation.
 
 ### The transaction process
 

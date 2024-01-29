@@ -13,12 +13,12 @@ Generating a valid transaction signature in ICON network.
 ### Prerequisite
 
 * [Elliptic Curve Digital Signature Algorithm](https://en.wikipedia.org/wiki/Elliptic\_Curve\_Digital\_Signature\_Algorithm)
-* [Transaction](https://docs.icon.community/concepts/computational-utilities/transactions)
-* [ICON JSON-RPC API v3](https://docs.icon.community/icon-stack/client-apis/json-rpc-api/v3)
+* [Transaction](../concepts/computational-utilities/transactions)
+* [ICON JSON-RPC API v3](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md)
 
 ### How to Serialize Transaction Data
 
-Before signing the data, the data needs to be serialized as bytes. This section describes how to serialize the transaction data. This document does not describe how to make the transaction data itself. Transaction message specification is defined in [JSON-RPC API v3](https://docs.icon.community/icon-stack/client-apis/json-rpc-api/v3).
+Before signing the data, the data needs to be serialized as bytes. This section describes how to serialize the transaction data. This document does not describe how to make the transaction data itself. Transaction message specification is defined in [JSON-RPC API v3](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md).
 
 #### Precondition
 
@@ -28,9 +28,9 @@ Transaction data is in JSON format with some restrictions.
 
 | Type       | Description                                                      |
 | ---------- | ---------------------------------------------------------------- |
-| String     | Normal string without U+0000 (NULL) character. ex) “Value”       |
-| Dictionary | Pairs of key and value. ex) {“key1”: “value1”, “key1”: “value2”} |
-| Array      | Series of values. ex) \[“value1”, “value2”]                      |
+| String     | Normal string without U+0000 (NULL) character (i.e “Value”)       |
+| Dictionary | Pairs of key and value (i.e {“key1”: “value1”, “key1”: “value2”}) |
+| Array      | Series of values (i.e [“value1”, “value2”])                      |
 | Null       | null                                                             |
 
 #### Serialize

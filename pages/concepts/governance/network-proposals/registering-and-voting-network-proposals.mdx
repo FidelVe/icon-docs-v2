@@ -24,8 +24,8 @@ The `registerProposal` method has 3 defined inputs:
 * description: this input recieves a `string` and defines a description for the proposal.
 * value: this input receives a value of type `byte` and it is the stringified JSON object of your type of proposal converted into a hex hash.
 
-Both `title` and `description` input are values of type `string`, for the case of the `value` input depending on your type of proposal (refer to the previous section [Types of Proposals](types-of-proposals.md)) you would need to create the correct hex hash depending on the proposal type.\
-\
+Both `title` and `description` input are values of type `string`, for the case of the `value` input depending on your type of proposal (refer to the previous section [Types of Proposals](types-of-proposals.md)) you would need to create the correct hex hash depending on the proposal type.
+
 For example a text proposal with the following structure:
 
 ```json
@@ -141,7 +141,7 @@ To cast a vote for a network proposal as a validator we need to sign a transacti
 
 The following is the RPC call signing to approve a Network Proposal:
 
-```jsdoc
+```json
 {
   to: 'cx0000000000000000000000000000000000000001', // governance contract
   from: 'hxe9d...', // validator wallet voting on the proposal
@@ -172,7 +172,7 @@ Once two thirds (2/3) of the votes have been cast to approve a network proposal,
 * When an unauthorized user executes the applyProposal call, the transaction will be reverted.
 
 The following RPC call showcase an example of an `applyProposal` call.
-```jsdoc
+```json
 {
   "jsonrpc": "2.0",
   "id": 100,
@@ -188,8 +188,8 @@ The following RPC call showcase an example of an `applyProposal` call.
     "dataType": "call",
     "data": {
       "method": "applyProposal",
-      "parmas": {
-        "id" : "0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238",
+      "params": {
+        "id" : "0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238"
       }
     }
   }

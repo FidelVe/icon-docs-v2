@@ -157,7 +157,7 @@ Calls a SCORE read-only API. Use the return type of method's outputs you want to
 
 ```swift
 let call = Call<String>(from: wallet.address, to: scoreAddress, method: "name", params: params)
-let request: Request<String> = iconService.call(call) 
+let request: Request<String> = iconService.call(call)
 let response: Result<String, ICError> = request.execute()
 ```
 
@@ -315,7 +315,7 @@ do {
 
 ```swift
 do {
-    let signed = try SignedTransaction(transaction: coinTransfer, privateKey: privateKey)  
+    let signed = try SignedTransaction(transaction: coinTransfer, privateKey: privateKey)
     let request = iconService.sendTransaction(signedTransaction: signed)
 
     request.async { (result) in
@@ -547,15 +547,15 @@ case .failure(let error):
 
 ```swift
 let call = Call<String>(from: wallet.address, to: scoreAddress, method: "name", params: params)
-let request: Request<String> = iconService.call(call) 
+let request: Request<String> = iconService.call(call)
 let response: Result<String, ICError> = request.execute()
 ```
 
 ### References
 
 * [API Reference](/icon-stack/client-apis)
-* [ICON JSON-RPC API v3](/icon-stack/client-apis/json-rpc-api/v3)
-* [ICON Network](/icon-stack/icon-networks/main-network)
+* [ICON JSON-RPC API v3](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md)
+* [ICON Network](/icon-stack/icon-networks/)
 
 ### Licenses
 

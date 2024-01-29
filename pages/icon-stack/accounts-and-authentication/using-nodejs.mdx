@@ -125,13 +125,13 @@ For a more detailed explanation of how to serialize transaction data you can [vi
 An example of a serialized transaction would be the following:
 
 ```javascript
-“icx_sendTransaction.” + 
-“from.hx396031be52ec56955bd7bf15eacdfa1a1c1fe19e.” + 
+“icx_sendTransaction.” +
+“from.hx396031be52ec56955bd7bf15eacdfa1a1c1fe19e.” +
 “nid.0x2.” +
- “nonce.0x1.” + 
-“stepLimit.0x1e8480.” + 
-“timestamp.0x5f569aaf7c100.” + 
-“to.hx81765cee88107ca5d3de480d25778ec71d8ae65f.” + 
+ “nonce.0x1.” +
+“stepLimit.0x1e8480.” +
+“timestamp.0x5f569aaf7c100.” +
+“to.hx81765cee88107ca5d3de480d25778ec71d8ae65f.” +
 “value.0xde0b6b3a7640000.” +
  “version.0x3”
 ```
@@ -139,20 +139,20 @@ An example of a serialized transaction would be the following:
 To generate the signature we hash the serialized data with the `sha3-256` algorithm, convert that data into a Buffer and apply the `ecdaSign` method of the `secp256k1` library which will return a value of type Buffer. This data is then converted into a `base64` string to have our signature.
 
 ```javascript
-const secp256k1 = require("secp256k1");                                     
-const sha3_256 = require("js-sha3").sha3_256;                               
-                                                                             
-function sign(serializedData, pk) {                                         
-  const serializedHash = sha3_256(serializedData);                          
-  const msgAsBuffer = Buffer.from(serializedHash, "hex");                   
-  const signing = secp256k1.ecdsaSign(msgAsBuffer, pk);                     
-  const recovery = new Uint8Array(1);                                       
-  recovery[0] = signing.recid;                                              
-  return concatTypedArrays(signing.signature, recovery);                    
-}                                                                           
-                                                                             
-function concatTypedArrays(a, b) {                                          
-  const c = new a.constructor(a.length + b.length);                                                                                             
+const secp256k1 = require("secp256k1");
+const sha3_256 = require("js-sha3").sha3_256;
+
+function sign(serializedData, pk) {
+  const serializedHash = sha3_256(serializedData);
+  const msgAsBuffer = Buffer.from(serializedHash, "hex");
+  const signing = secp256k1.ecdsaSign(msgAsBuffer, pk);
+  const recovery = new Uint8Array(1);
+  recovery[0] = signing.recid;
+  return concatTypedArrays(signing.signature, recovery);
+}
+
+function concatTypedArrays(a, b) {
+  const c = new a.constructor(a.length + b.length);
   c.set(a, 0);
   c.set(b, a.length);
 
@@ -183,7 +183,3 @@ const signatureAsBase64 = Buffer.from(signaturePk1).toString("base64");
 
 console.log(signatureAsBase64);
 ```
-
-### Next steps
-
-[Accounts and authentication using icon-sdk-js](using-icon-sdk-js.md)
