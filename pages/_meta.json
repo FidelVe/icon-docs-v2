@@ -17,8 +17,8 @@
     "type": "separator",
     "title": ""
   },
-  "getting-started": {
-    "title": "Getting Started",
+  "cross-chain-communication": {
+    "title": "Cross-chain Communication",
     "theme": {
       "layout": "default",
       "breadcrumb": false
@@ -28,8 +28,8 @@
     "type": "separator",
     "title": ""
   },
-  "xcall": {
-    "title": "xCall",
+  "develop-on-icon-chain": {
+    "title": "Develop on ICON Chain",
     "theme": {
       "layout": "default",
       "breadcrumb": false
@@ -39,8 +39,8 @@
     "type": "separator",
     "title": ""
   },
-  "concepts": {
-    "title": "Concepts",
+  "operate-icon": {
+    "title": "Operate ICON",
     "theme": {
       "layout": "default",
       "breadcrumb": false
@@ -50,8 +50,8 @@
     "type": "separator",
     "title": ""
   },
-  "icon-stack": {
-    "title": "ICON Stack",
+  "advanced-topics": {
+    "title": "Advanced Topics",
     "theme": {
       "layout": "default",
       "breadcrumb": false
@@ -61,46 +61,8 @@
     "type": "separator",
     "title": ""
   },
-  "cross-chain-communication": {
-    "title": "Cross-chain Communication",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "separator6": {
-    "type": "separator",
-    "title": ""
-  },
-  "support": {
-    "title": "Support",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "separator7": {
-    "type": "separator",
-    "title": ""
-  },
-  "release-notes": {
-    "title": "Release Notes",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "privacy-policy": {
-    "title": "Privacy Policy",
-    "display": "hidden",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "privacy-policy2": {
-    "title": "Privacy Policy",
-    "display": "hidden",
+  "contact": {
+    "title": "Contact",
     "theme": {
       "layout": "default",
       "breadcrumb": false

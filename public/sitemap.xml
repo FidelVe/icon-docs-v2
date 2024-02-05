@@ -1,14 +1,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>undefined/icon-stack</loc>
+    <loc>undefined/develop-on-icon-chain</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>undefined</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/privacy-policy</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -20,26 +16,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/computational-utilities</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/economics</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/governance</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/network</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/cross-chain-communication/blockchain-transmission-protocol-btp</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -48,47 +24,63 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-create-a-wallet-account</loc>
+    <loc>undefined/cross-chain-communication/xcall</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-a-local-network</loc>
+    <loc>undefined/develop-on-icon-chain/accounts-and-authentication</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-a-validator-node</loc>
+    <loc>undefined/develop-on-icon-chain/client-apis</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-an-api-endpoint</loc>
+    <loc>undefined/develop-on-icon-chain/computational-utilities</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/accounts-and-authentication</loc>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis</loc>
+    <loc>undefined/develop-on-icon-chain/icon-networks</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/icon-execution-environments</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/icon-networks</loc>
+    <loc>undefined/develop-on-icon-chain/storage</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/ides</loc>
+    <loc>undefined/operate-icon/economics</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts</loc>
+    <loc>undefined/operate-icon/governance</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/storage</loc>
+    <loc>undefined/operate-icon/how-to-create-a-wallet-account</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-local-network</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-validator-node</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-an-api-endpoint</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/network</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -100,183 +92,179 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/explanations</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/xcall/guides</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/xcall/quickstart</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/computational-utilities/accounts</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/computational-utilities/blocks</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/computational-utilities/consensus-mechanism</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/computational-utilities/goloop</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/computational-utilities/transactions</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/decentralized-applications-dapps/oracles</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/economics/icx</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/economics/rewards-and-penalties</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/economics/staking</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/economics/step</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/governance/delegates</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/governance/network-proposals</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/network/api-endpoints</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/network/clients</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/concepts/network/validator-nodes</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/cross-chain-communication/blockchain-transmission-protocol-btp/btp-address</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-a-local-network/debugging-a-local-network</loc>
+    <loc>undefined/cross-chain-communication/xcall/explanations</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-a-local-network/decentralizing-a-local-network</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-a-local-network/setting-up-a-local-network</loc>
+    <loc>undefined/cross-chain-communication/xcall/quickstart</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-a-validator-node/json-standard-for-validator-detailed-information</loc>
+    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-goloop-cli</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-a-validator-node/migrate-node-to-a-different-server</loc>
+    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-icon-sdk-js</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-run-a-validator-node/register-prep-node-public-key</loc>
+    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-nodejs</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/getting-started/how-to-write-a-smart-contract/how-to-estimate-required-step</loc>
+    <loc>undefined/develop-on-icon-chain/client-apis/java-sdk</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/accounts-and-authentication/using-goloop-cli</loc>
+    <loc>undefined/develop-on-icon-chain/client-apis/javascript-sdk</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/accounts-and-authentication/using-icon-sdk-js</loc>
+    <loc>undefined/develop-on-icon-chain/client-apis/json-rpc-api</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/accounts-and-authentication/using-nodejs</loc>
+    <loc>undefined/develop-on-icon-chain/client-apis/python-sdk</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis/java-sdk</loc>
+    <loc>undefined/develop-on-icon-chain/client-apis/swift-sdk</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis/javascript-sdk</loc>
+    <loc>undefined/develop-on-icon-chain/computational-utilities/accounts</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis/json-rpc-api</loc>
+    <loc>undefined/develop-on-icon-chain/computational-utilities/blocks</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis/python-sdk</loc>
+    <loc>undefined/develop-on-icon-chain/computational-utilities/consensus-mechanism</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis/swift-sdk</loc>
+    <loc>undefined/develop-on-icon-chain/computational-utilities/goloop</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/icon-execution-environments/java</loc>
+    <loc>undefined/develop-on-icon-chain/computational-utilities/transactions</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/icon-execution-environments/python-deprecated</loc>
+    <loc>undefined/develop-on-icon-chain/how-to-write-a-smart-contract/how-to-estimate-required-step</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/allowed-methods</loc>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments/java</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/building-smart-contracts</loc>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments/python-deprecated</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/composability</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/allowed-methods</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/deploying-smart-contracts</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/building-smart-contracts</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/smart-contract-anatomy</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/composability</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/smart-contract-languages</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/deploying-smart-contracts</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/smart-contract-libraries</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/smart-contract-anatomy</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/smart-contract-security</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/smart-contract-languages</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/smart-contracts/testing-smart-contracts</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/smart-contract-libraries</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/smart-contract-security</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/testing-smart-contracts</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/economics/icx</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/economics/rewards-and-penalties</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/economics/staking</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/economics/step</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/governance/delegates</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/governance/network-proposals</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-local-network/debugging-a-local-network</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-local-network/decentralizing-a-local-network</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-local-network/setting-up-a-local-network</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-validator-node/json-standard-for-validator-detailed-information</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-validator-node/migrate-node-to-a-different-server</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-validator-node/register-prep-node-public-key</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/network/api-endpoints</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/network/clients</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/network/validator-nodes</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -292,91 +280,91 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/explanations/fees</loc>
+    <loc>undefined/cross-chain-communication/xcall/explanations/fees</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/explanations/message-lifecycle</loc>
+    <loc>undefined/cross-chain-communication/xcall/explanations/message-lifecycle</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/build-a-cross-chain-voting-dapp-part-1</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/build-a-cross-chain-voting-dapp-part-1</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/build-a-cross-chain-voting-dapp-part-2</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/build-a-cross-chain-voting-dapp-part-2</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/build-a-cross-chain-voting-dapp-part-3</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/build-a-cross-chain-voting-dapp-part-3</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/build-a-cross-chain-voting-dapp-part-4</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/build-a-cross-chain-voting-dapp-part-4</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/error-handling</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/error-handling</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/interacting-with-xcall-dapps-on-cosmwasm-chains</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/interacting-with-xcall-dapps-on-cosmwasm-chains</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/interacting-with-xcall-dapps-on-evm-chains</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/interacting-with-xcall-dapps-on-evm-chains</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/interacting-with-xcall-dapps-on-jvm-chains</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/interacting-with-xcall-dapps-on-jvm-chains</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/receiving-a-message</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/receiving-a-message</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/guides/sending-a-message</loc>
+    <loc>undefined/cross-chain-communication/xcall/guides/sending-a-message</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/quickstart/sending-a-message-with-rollback</loc>
+    <loc>undefined/cross-chain-communication/xcall/quickstart/sending-a-message-with-rollback</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/quickstart/sending-a-message</loc>
+    <loc>undefined/cross-chain-communication/xcall/quickstart/sending-a-message</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/quickstart/setting-up-a-local-environment-with-dive-cli</loc>
+    <loc>undefined/cross-chain-communication/xcall/quickstart/setting-up-a-local-environment-with-dive-cli</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/xcall/quickstart/setting-up-a-local-environment</loc>
+    <loc>undefined/cross-chain-communication/xcall/quickstart/setting-up-a-local-environment</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/concepts/computational-utilities/goloop/setup</loc>
+    <loc>undefined/develop-on-icon-chain/client-apis/swift-sdk/examples</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/concepts/governance/network-proposals/overview-on-network-proposals</loc>
+    <loc>undefined/develop-on-icon-chain/computational-utilities/goloop/setup</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/concepts/governance/network-proposals/registering-and-voting-network-proposals</loc>
+    <loc>undefined/operate-icon/governance/network-proposals/overview-on-network-proposals</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/concepts/governance/network-proposals/submit-network-proposal-using-the-icon-sdk-js</loc>
+    <loc>undefined/operate-icon/governance/network-proposals/registering-and-voting-network-proposals</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/concepts/governance/network-proposals/types-of-proposals</loc>
+    <loc>undefined/operate-icon/governance/network-proposals/submit-network-proposal-using-the-icon-sdk-js</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/icon-stack/client-apis/swift-sdk/examples</loc>
+    <loc>undefined/operate-icon/governance/network-proposals/types-of-proposals</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
