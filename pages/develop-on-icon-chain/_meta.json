@@ -27,7 +27,7 @@
           "breadcrumb": false
         }
     },
-    "Networks": {
+    "networks": {
         "title": "Networks",
         "theme": {
           "layout": "default",

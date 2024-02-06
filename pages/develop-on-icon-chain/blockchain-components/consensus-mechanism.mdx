@@ -14,16 +14,16 @@ There are many different ways for a decentralized network to form a consensus, i
 
 #### What is delegation?
 
-ICON uses a form of the Proof-of-Stake algorithm developed by [Daniel Larimer](https://bitcoinwiki.org/wiki/dan-larimer) called [_Delegated Proof-of-Stake_](https://icon.community/glossary/delegated-proof-of-stake/). The key distinction between the two is that the _delegated_ version does not let any group join the pool of [validator nodes](../network/validator-nodes.md). The only valid validators are voted in by the community and are known as [delegates](../governance/delegates.md). They are users who are voted in by the community because they are seen as responsible and reliable for the purpose of processing transactions and validating blocks to add to the blockchain.
+ICON uses a form of the Proof-of-Stake algorithm developed by [Daniel Larimer](https://bitcoinwiki.org/wiki/dan-larimer) called [_Delegated Proof-of-Stake_](https://icon.community/glossary/delegated-proof-of-stake/). The key distinction between the two is that the _delegated_ version does not let any group join the pool of [validator nodes](/operate-icon/how-to-run-a-validator-node). The only valid validators are voted in by the community and are known as [delegates](/operate-icon/governance/delegates). They are users who are voted in by the community because they are seen as responsible and reliable for the purpose of processing transactions and validating blocks to add to the blockchain.
 
 #### Mechanism
 
 Each time a new block is to be validated may be referred to as a _round_. In each round, a validator is chosen from among the delegates. That validator is responsible for submitting a proposal for a new block. This is done in the following steps:
 
-1. Process the next group of [transactions](transactions.md)
+1. Process the next group of [transactions](/develop-on-icon-chain/blockchain-components/transactions)
 2. Perform a hash on the resulting information
-3. Store those hashes in a [block](blocks.md)
-4. Pass that block to the other validators in the ICON [network](../network/)
+3. Store those hashes in a [block](/develop-on-icon-chain/blockchain-components/blocks)
+4. Pass that block to the other validators in the ICON [network](/develop-on-icon-chain/networks)
 5. Receiving the votes from the other validators on whether the block is valid or not
 
-If the block is valid, then it is added to the blockchain and the validators are [rewarded](../economics/rewards-and-penalties.md) appropriately. If that block is invalid, then another validator is chosen, and the validators are penalized appropriately. If a bad block is voted as valid, then the validator who staked their ICX by voting to add that block could potentially lose all of their stake if the other validators eventually determine that the block is in fact invalid.
+If the block is valid, then it is added to the blockchain and the validators are [rewarded](/operate-icon/economics/rewards-and-penalties) appropriately. If that block is invalid, then another validator is chosen, and the validators are penalized appropriately. If a bad block is voted as valid, then the validator who staked their ICX by voting to add that block could potentially lose all of their stake if the other validators eventually determine that the block is in fact invalid.
