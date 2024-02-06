@@ -167,9 +167,6 @@ const config: DocsThemeConfig = {
           </div>
         )
       }
-      if (title === 'Contact') {
-        return <>❓ {title}</>
-      }
       // Check if the title starts with 'How to'
       if (title.startsWith('How to')) {
         return <>🎓 {title}</>
