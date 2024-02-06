@@ -1,0 +1,65 @@
+{
+    "economics": {
+      "title": "Economics",
+      "theme": {
+        "layout": "default",
+        "breadcrumb": false
+      }
+    },
+    "governance": {
+        "title": "Governance",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "network": {
+        "title": "Network",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "icon-improvement-proposals-iips": {
+        "title": "ICON Improvement Proposals (IIPS)",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "how-to-create-a-wallet-account": {
+        "title": "How to create a wallet account",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "how-to-run-a-local-network": {
+        "title": "How to run a local network",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "how-to-run-a-validator-node": {
+        "title": "How to run a validator node",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "how-to-run-an-api-endpoint": {
+        "title": "How to run an API endpoint",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "how-to-use-the-json-rpc-api": {
+        "title": "How to use the JSON-RPC API",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    }
+  }
