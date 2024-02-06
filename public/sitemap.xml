@@ -1,5 +1,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>undefined/advanced-topics</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/contact</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/develop-on-icon-chain</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -8,11 +16,23 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/support</loc>
+    <loc>undefined/welcome</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/welcome</loc>
+    <loc>undefined/advanced-topics/api-endpoints</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/goloop</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/security</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/validator-nodes</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -20,11 +40,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/icon-bridge</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall</loc>
+    <loc>undefined/cross-chain-communication/icon-bridge</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -32,11 +52,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/develop-on-icon-chain/client-apis</loc>
+    <loc>undefined/develop-on-icon-chain/blockchain-components</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/develop-on-icon-chain/computational-utilities</loc>
+    <loc>undefined/develop-on-icon-chain/client-apis</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -44,15 +64,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/develop-on-icon-chain/icon-networks</loc>
+    <loc>undefined/develop-on-icon-chain/networks</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>undefined/develop-on-icon-chain/smart-contracts</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/storage</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -84,11 +100,47 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/support/advanced-topics</loc>
+    <loc>undefined/advanced-topics/api-endpoints/common-operation-and-debug-steps</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/support/security</loc>
+    <loc>undefined/advanced-topics/validator-nodes/backup-and-restore-db-guide</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/validator-nodes/common-operation-and-debug-steps</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/validator-nodes/how-to-bond</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/validator-nodes/how-to-check-if-a-validator-is-missing-blocks</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/validator-nodes/how-to-collect-centralized-logging</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/validator-nodes/how-to-setup-a-keystore-on-a-validator-node</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/validator-nodes/node-operation-and-configuration</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/validator-nodes/understanding-log-files</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/goloop/genesis-storage</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/goloop/genesis-tx</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -96,15 +148,15 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/explanations</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/explanations</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/quickstart</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -117,6 +169,30 @@
   </url>
   <url>
     <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-nodejs</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/blockchain-components/accounts</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/blockchain-components/blocks</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/blockchain-components/consensus-mechanism</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/blockchain-components/goloop</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/blockchain-components/storage</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/blockchain-components/transactions</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -137,30 +213,6 @@
   </url>
   <url>
     <loc>undefined/develop-on-icon-chain/client-apis/swift-sdk</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/computational-utilities/accounts</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/computational-utilities/blocks</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/computational-utilities/consensus-mechanism</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/computational-utilities/goloop</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/computational-utilities/transactions</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/how-to-write-a-smart-contract/how-to-estimate-required-step</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -232,18 +284,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/operate-icon/how-to-run-a-local-network/debugging-a-local-network</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/how-to-run-a-local-network/decentralizing-a-local-network</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/how-to-run-a-local-network/setting-up-a-local-network</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/operate-icon/how-to-run-a-validator-node/json-standard-for-validator-detailed-information</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -253,6 +293,18 @@
   </url>
   <url>
     <loc>undefined/operate-icon/how-to-run-a-validator-node/register-prep-node-public-key</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-local-network/debugging-a-local-network</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-local-network/decentralizing-a-local-network</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-local-network/setting-up-a-local-network</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -268,79 +320,71 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/support/advanced-topics/api-endpoints</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/explanations/fees</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/support/advanced-topics/goloop</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/explanations/message-lifecycle</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/support/advanced-topics/validator-nodes</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/build-a-cross-chain-voting-dapp-part-1</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/explanations/fees</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/build-a-cross-chain-voting-dapp-part-2</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/explanations/message-lifecycle</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/build-a-cross-chain-voting-dapp-part-3</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/build-a-cross-chain-voting-dapp-part-1</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/build-a-cross-chain-voting-dapp-part-4</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/build-a-cross-chain-voting-dapp-part-2</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/error-handling</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/build-a-cross-chain-voting-dapp-part-3</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/interacting-with-xcall-dapps-on-cosmwasm-chains</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/build-a-cross-chain-voting-dapp-part-4</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/interacting-with-xcall-dapps-on-evm-chains</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/error-handling</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/interacting-with-xcall-dapps-on-jvm-chains</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/interacting-with-xcall-dapps-on-cosmwasm-chains</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/receiving-a-message</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/interacting-with-xcall-dapps-on-evm-chains</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/sending-a-message</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/interacting-with-xcall-dapps-on-jvm-chains</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/sending-a-message-with-rollback</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/receiving-a-message</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/sending-a-message</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/guides/sending-a-message</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/setting-up-a-local-environment-with-dive-cli</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/quickstart/sending-a-message-with-rollback</loc>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/setting-up-a-local-environment</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/cross-chain-communication/xcall/quickstart/sending-a-message</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/cross-chain-communication/xcall/quickstart/setting-up-a-local-environment-with-dive-cli</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/cross-chain-communication/xcall/quickstart/setting-up-a-local-environment</loc>
+    <loc>undefined/develop-on-icon-chain/blockchain-components/goloop/setup</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -348,7 +392,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/develop-on-icon-chain/computational-utilities/goloop/setup</loc>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/how-to-write-a-smart-contract/how-to-estimate-required-step</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -365,50 +409,6 @@
   </url>
   <url>
     <loc>undefined/operate-icon/governance/network-proposals/types-of-proposals</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/api-endpoints/common-operation-and-debug-steps</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/goloop/genesis-storage</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/goloop/genesis-tx</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/validator-nodes/backup-and-restore-db-guide</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/validator-nodes/common-operation-and-debug-steps</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/validator-nodes/how-to-bond</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/validator-nodes/how-to-check-if-a-validator-is-missing-blocks</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/validator-nodes/how-to-collect-centralized-logging</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/validator-nodes/how-to-setup-a-keystore-on-a-validator-node</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/validator-nodes/node-operation-and-configuration</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/support/advanced-topics/validator-nodes/understanding-log-files</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

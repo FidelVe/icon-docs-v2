@@ -1,4 +1,11 @@
 {
+    "general-message-passing-xcall": {
+        "title": "General Message Passing (xCall)",
+        "theme": {
+            "layout": "default",
+            "breadcrumb": false
+        }
+    },
     "blockchain-transmission-protocol-btp": {
         "title": "Blockchain Transmission Protocol (BTP)",
         "theme": {
