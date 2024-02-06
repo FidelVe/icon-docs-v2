@@ -15,7 +15,7 @@ For more in-depth details on the code and live testing this scenario you can clo
 
 ## Call readonly methods on JVM chains.
 
-One of the readonly calls that you will be required to make is the `getFee(String _net, Boolean _rollback)` method of the xCall contract, to learn more about fees you can checkout the explanation in the [following article](../explanations/fees).
+One of the readonly calls that you will be required to make is the `getFee(String _net, Boolean _rollback)` method of the xCall contract, to learn more about fees you can checkout the explanation in the [following article](cross-chain-communication/general-message-passing-xcall/explanations/fees).
 
 ```js
 const IconService = require("icon-sdk-js");
@@ -110,7 +110,7 @@ main();
 
 ## Fetch and/or listening for events on smart contracts on JVM chains.
 
-When interacting with dapps connected with xCall we need to listen/fetch certain events that will tell us on which part of the [message lifecycle](../explanations/message-lifecycle) we currently are, this will allow us to proceed executing the required signed transactions to complete the message sending process.
+When interacting with dapps connected with xCall we need to listen/fetch certain events that will tell us on which part of the [message lifecycle](/cross-chain-communication/general-message-passing-xcall/explanations/message-lifecycle) we currently are, this will allow us to proceed executing the required signed transactions to complete the message sending process.
 
 On JVM chains, event data is obtained by calling the `icx_GetTransactionResult` RPC method with a provided transaction hash.
 

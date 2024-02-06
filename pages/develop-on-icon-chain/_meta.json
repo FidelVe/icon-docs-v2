@@ -1,0 +1,44 @@
+{
+    "accounts-and-authentication": {
+      "title": "Accounts and Authentication",
+      "theme": {
+        "layout": "default",
+        "breadcrumb": false
+      }
+    },
+    "blockchain-components": {
+        "title": "Blockchain Components",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "client-apis": {
+        "title": "Client APIs",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "icon-execution-environments": {
+        "title": "ICON Execution Environments",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "Networks": {
+        "title": "Networks",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    },
+    "smart-contracts": {
+        "title": "Smart Contracts",
+        "theme": {
+          "layout": "default",
+          "breadcrumb": false
+        }
+    }
+  }

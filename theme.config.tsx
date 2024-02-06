@@ -174,10 +174,10 @@ const config: DocsThemeConfig = {
   //   },
   //   defaultMenuCollapseLevel: 1,
   // },
-  // banner: {
-  //   key: 'banner-2',
-  //   text: <span></span>
-  // },
+  banner: {
+    key: 'banner-2',
+    text: <span>💬 Help us improve this documentation and drop us some <Link className="font-bold" href='/contact'>feedback</Link>!</span>
+  },
   navigation: {
     prev: true,
     next: true
