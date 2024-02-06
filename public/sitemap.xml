@@ -16,6 +16,10 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/operate-icon</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/welcome</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -196,14 +200,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/develop-on-icon-chain/icon-execution-environments/java</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/icon-execution-environments/python-deprecated</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/develop-on-icon-chain/client-apis/java-sdk</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -221,6 +217,14 @@
   </url>
   <url>
     <loc>undefined/develop-on-icon-chain/client-apis/swift-sdk</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments/java</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments/python-deprecated</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -284,18 +288,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/operate-icon/how-to-run-a-validator-node/json-standard-for-validator-detailed-information</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/how-to-run-a-validator-node/migrate-node-to-a-different-server</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/how-to-run-a-validator-node/register-prep-node-public-key</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/operate-icon/how-to-run-a-local-network/debugging-a-local-network</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -305,6 +297,18 @@
   </url>
   <url>
     <loc>undefined/operate-icon/how-to-run-a-local-network/setting-up-a-local-network</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-validator-node/json-standard-for-validator-detailed-information</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-validator-node/migrate-node-to-a-different-server</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/how-to-run-a-validator-node/register-prep-node-public-key</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
