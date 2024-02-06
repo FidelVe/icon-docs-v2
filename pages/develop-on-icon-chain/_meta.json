@@ -28,7 +28,7 @@
         }
     },
     "networks": {
-        "title": "Networks",
+        "title": "Networks and API Endpoints",
         "theme": {
           "layout": "default",
           "breadcrumb": false

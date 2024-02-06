@@ -147,33 +147,37 @@ const config: DocsThemeConfig = {
       />
     );
   },
-  sidebar: {
-    titleComponent({ title, type }) {
-      if (type === "separator") {
-        return <span className="cursor-default">{title}</span>;
-      }
-      return <>{title}</>;
-    },
-    defaultMenuCollapseLevel: 1,
-    toggleButton: true
-  },
   // sidebar: {
   //   titleComponent({ title, type }) {
-  //     if (type === 'separator') {
-  //       return (
-  //         <div style={{ background: 'cyan', textAlign: 'center' }}>
-  //           {title}
-  //           <img src='/images/dive-cli-banner.jpg' alt='' width='' height=''/>
-  //         </div>
-  //       )
+  //     if (type === "separator") {
+  //       return <span className="cursor-default">{title}</span>;
   //     }
-  //     if (title === 'Contact') {
-  //       return <>❓ {title}</>
-  //     }
-  //     return <>👉 {title}</>
+  //     return <>{title}</>;
   //   },
   //   defaultMenuCollapseLevel: 1,
+  //   toggleButton: true
   // },
+  sidebar: {
+    titleComponent({ title, type }) {
+      if (type === 'separator') {
+        return (
+          <div style={{ background: 'cyan', textAlign: 'center' }}>
+            {title}
+            <img src='/images/dive-cli-banner.jpg' alt='' width='' height=''/>
+          </div>
+        )
+      }
+      if (title === 'Contact') {
+        return <>❓ {title}</>
+      }
+      // Check if the title starts with 'How to'
+      if (title.startsWith('How to')) {
+        return <>🎓 {title}</>
+      }
+      return <>{title}</>
+    },
+    defaultMenuCollapseLevel: 1,
+  },
   banner: {
     key: 'banner-2',
     text: <span>💬 Help us improve this documentation and drop us some <Link className="font-bold" href='/contact'>feedback</Link>!</span>

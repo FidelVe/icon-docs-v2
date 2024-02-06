@@ -104,6 +104,14 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/advanced-topics/goloop/genesis-storage</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/advanced-topics/goloop/genesis-tx</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/advanced-topics/validator-nodes/backup-and-restore-db-guide</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -133,14 +141,6 @@
   </url>
   <url>
     <loc>undefined/advanced-topics/validator-nodes/understanding-log-files</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/advanced-topics/goloop/genesis-storage</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/advanced-topics/goloop/genesis-tx</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -196,6 +196,14 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments/java</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments/python-deprecated</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/develop-on-icon-chain/client-apis/java-sdk</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -213,14 +221,6 @@
   </url>
   <url>
     <loc>undefined/develop-on-icon-chain/client-apis/swift-sdk</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/icon-execution-environments/java</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/icon-execution-environments/python-deprecated</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>

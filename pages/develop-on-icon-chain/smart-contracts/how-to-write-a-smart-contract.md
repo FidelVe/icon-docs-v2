@@ -13,7 +13,7 @@ In the following guide we are going to explain in detail the process of:
 
 For setting the development environment we need to install the following programs:
 
-* Install OpenJDK, go, and goloop. Follow [these instructions to install goloop](../concepts/computational-utilities/goloop/setup) (this has instructions for OpenJDK, go and goloop).
+* Install OpenJDK, go, and goloop. Follow [these instructions to install goloop](/develop-on-icon-chain/blockchain-components/goloop/setup) (this has instructions for OpenJDK, go and goloop).
 * [Install gradle](https://docs.gradle.org/current/userguide/installation.html)
 
 For the smart contract deployment you can either choose to deploy on a testnet in the ICON Blockchain or run a local network.
@@ -23,7 +23,7 @@ If you want to deploy to a testnet you will need to have ICX in your selected te
 [https://faucet.iconosphere.io/](https://faucet.iconosphere.io/)
 
 For setting up a local network, you can follow this guide:
-[How to run a local network](how-to-run-a-local-network)
+[How to run a local network](/operate-icon/how-to-run-a-local-network)
 
 ### Creating the project workspace with gradle
 
