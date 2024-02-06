@@ -8,6 +8,10 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/cross-chain-communication</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/develop-on-icon-chain</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -280,14 +284,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/operate-icon/governance/delegates</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/governance/network-proposals</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/operate-icon/how-to-run-a-local-network/debugging-a-local-network</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -297,6 +293,14 @@
   </url>
   <url>
     <loc>undefined/operate-icon/how-to-run-a-local-network/setting-up-a-local-network</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/governance/delegates</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/governance/network-proposals</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -329,6 +333,22 @@
   </url>
   <url>
     <loc>undefined/cross-chain-communication/general-message-passing-xcall/explanations/message-lifecycle</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/sending-a-message-with-rollback</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/sending-a-message</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/setting-up-a-local-environment-with-dive-cli</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/setting-up-a-local-environment</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -369,22 +389,6 @@
   </url>
   <url>
     <loc>undefined/cross-chain-communication/general-message-passing-xcall/guides/sending-a-message</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/sending-a-message-with-rollback</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/sending-a-message</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/setting-up-a-local-environment-with-dive-cli</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/setting-up-a-local-environment</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
