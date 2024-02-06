@@ -57,7 +57,7 @@ Fluentd is an open-source data collection software licensed under Apache 2.0. It
 
     There are two ways of collecting logs. The first one is to set the docker logging driver to Fluentd. The second way is to collect the logs using the tail of fluentd input plugin. We recommend using the second method, using the input plugin, rather than using the docker logging driver. If you use the docker logging driver, you may experience delays in fluentd containers, or container problems that will affect P-Rep container performance. In the case of using input plugin, there is no connection point between Fluentd container and P-Rep container. So there will be no effect on the performance even if the fluentd problem occurs.
 
-![](/images/docker-fluentd.jpeg)
+![](/images/docker-fluentd.png)
 
 **Installation**
 
