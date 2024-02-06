@@ -1,0 +1,23 @@
+{
+  "validator-nodes": {
+    "title": "Validator Nodes",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "api-endpoints": {
+    "title": "API Endpoints",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "goloop": {
+    "title": "Goloop",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

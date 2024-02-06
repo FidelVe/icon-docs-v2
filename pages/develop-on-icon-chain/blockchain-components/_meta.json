@@ -1,0 +1,37 @@
+{
+  "accounts": {
+    "title": "Accounts",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "transactions": {
+    "title": "Transactions",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "blocks": {
+    "title": "Blocks",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "consensus-mechanism": {
+    "title": "Consensus Mechanism",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "goloop": {
+    "title": "Goloop",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

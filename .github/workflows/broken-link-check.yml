@@ -1,0 +1,14 @@
+on:
+  push:
+    branches: [legacy]
+name: Broken Link Check
+jobs:
+  check:
+    name: Broken Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Broken Link Check
+        uses: technote-space/broken-link-checker-action@v2
+        with:
+          TARGET: "https://icon-docs-v2-git-legacy-fidelves-projects.vercel.app/"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

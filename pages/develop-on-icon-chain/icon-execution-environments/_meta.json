@@ -1,0 +1,16 @@
+{
+  "java": {
+    "title": "Java",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "python-deprecated": {
+    "title": "Python (Deprecated)",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

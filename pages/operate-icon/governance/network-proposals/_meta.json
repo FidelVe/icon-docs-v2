@@ -1,0 +1,30 @@
+{
+  "overview-on-network-proposals": {
+    "title": "Overview on Network Proposals",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "types-of-proposals": {
+    "title": "Types of Proposals",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "registering-and-voting-network-proposals": {
+    "title": "Registering and Voting Network Proposals",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "submit-network-proposal-using-the-icon-sdk-js": {
+    "title": "Submit Network Proposal Using the icon-sdk-js",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

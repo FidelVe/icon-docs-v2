@@ -1,0 +1,65 @@
+{
+  "smart-contract-languages": {
+    "title": "Smart Contract Languages",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "smart-contract-anatomy": {
+    "title": "Smart Contract Anatomy",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "smart-contract-libraries": {
+    "title": "Smart Contract Libraries",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "building-smart-contracts": {
+    "title": "Building Smart Contracts",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "testing-smart-contracts": {
+    "title": "Testing Smart Contracts",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "deploying-smart-contracts": {
+    "title": "Deploying Smart Contracts",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "composability": {
+    "title": "Composability",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "smart-contract-security": {
+    "title": "Smart Contract Security",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "allowed-methods": {
+    "title": "Allowed Methods",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

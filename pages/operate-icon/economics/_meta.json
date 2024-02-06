@@ -1,0 +1,30 @@
+{
+  "icx": {
+    "title": "ICX",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "step": {
+    "title": "STEP",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "staking": {
+    "title": "Staking",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "rewards-and-penalties": {
+    "title": "Rewards & Penalties",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}

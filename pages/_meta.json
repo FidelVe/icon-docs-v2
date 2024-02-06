@@ -1,4 +1,11 @@
 {
+  "welcome": {
+    "title": "Welcome",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
   "index": {
     "title": "Home",
     "display": "hidden",
@@ -6,92 +13,59 @@
       "layout": "raw"
     }
   },
-  "privacy-policy": {
-    "title": "Privacy Policy",
-    "display": "hidden",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "welcome": {
-    "title": "Welcome",
-    "theme": {
-    "layout": "default",
-    "breadcrumb": false
-  }},
-  "-- BUILD A DAPP ON ICON": {
+  "separator1": {
     "type": "separator",
-    "title": "BUILD A DAPP ON ICON"
+    "title": ""
   },
-  "home-developers": {
-    "title": "Get started for Developers",
-    "theme": {
-      "layout": "full",
-      "breadcrumb": false
-    }
-  },
-  "run-a-local-icon-network": {
-    "title": "Run a local ICON network",
+  "cross-chain-communication": {
+    "title": "Cross-chain Communication",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "-- RUN AN ICON NODE": {
+  "separator2": {
     "type": "separator",
-    "title": "RUN AN ICON NODE"
+    "title": ""
   },
-  "home-validators": {
-    "title": "Get started for Validators",
-    "theme": {
-      "layout": "full",
-      "breadcrumb": false
-    }
-  },
-  "validator-rewards": {
-    "title": "Validator rewards",
+  "develop-on-icon-chain": {
+    "title": "Develop on ICON Chain",
     "theme": {
       "layout": "default",
       "breadcrumb": false
     }
   },
-  "how-to-register-a-validator-node": {
-    "title": "How to register a validator node",
-    "theme": {
-      "layout": "default",
-      "breadcrumb": false
-    }
-  },
-  "-- CROSS-CHAIN WITH XCALL": {
+  "separator3": {
     "type": "separator",
-    "title": "BUILD WITH XCALL"
+    "title": ""
   },
-  "home-xcall": {
-    "title": "Get started with xCall",
+  "operate-icon": {
+    "title": "Operate ICON",
     "theme": {
-      "layout": "full",
+      "layout": "default",
       "breadcrumb": false
     }
   },
-  "testnet": {
-      "title": "🎴 Dropdown Menu",
-      "type": "menu",
-      "items": {
-        "program": {
-          "title": "🎴 Outbound menu item 1 ↗",
-          "href": "/"
-        },
-        "challenges": {
-          "title": "🃏 Outbound menu item 1 ↗",
-          "href": "/"
-        }
-      }
+  "separator4": {
+    "type": "separator",
+    "title": ""
   },
-  "btp2-status-monitor": {
-    "title": "💱 Direct outbound link ↗",
-    "type": "page",
-    "href": "/",
-    "newWindow": true
-  }  
+  "advanced-topics": {
+    "title": "Advanced Topics",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "separator5": {
+    "type": "separator",
+    "title": ""
+  },
+  "contact": {
+    "title": "Contact",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "quickstart": {
+    "title": "Quickstart",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "guides": {
+    "title": "Guides",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  },
+  "explanations": {
+      "title": "Explanations",
+      "theme": {
+        "layout": "default",
+        "breadcrumb": false
+      }
+    }
+  }

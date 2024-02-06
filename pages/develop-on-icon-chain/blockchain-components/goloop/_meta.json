@@ -1,0 +1,9 @@
+{
+  "setup": {
+    "title": "Setup",
+    "theme": {
+      "layout": "default",
+      "breadcrumb": false
+    }
+  }
+}
