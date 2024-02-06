@@ -15,7 +15,7 @@
   },
   "separator1": {
     "type": "separator",
-    "title": ""
+    "title": "- Temporary Seperator -"
   },
   "cross-chain-communication": {
     "title": "Cross-chain Communication",

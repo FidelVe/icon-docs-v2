@@ -157,6 +157,23 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1,
     toggleButton: true
   },
+  // sidebar: {
+  //   titleComponent({ title, type }) {
+  //     if (type === 'separator') {
+  //       return (
+  //         <div style={{ background: 'cyan', textAlign: 'center' }}>
+  //           {title}
+  //           <img src='/images/dive-cli-banner.jpg' alt='' width='' height=''/>
+  //         </div>
+  //       )
+  //     }
+  //     if (title === 'Contact') {
+  //       return <>❓ {title}</>
+  //     }
+  //     return <>👉 {title}</>
+  //   },
+  //   defaultMenuCollapseLevel: 1,
+  // },
   // banner: {
   //   key: 'banner-2',
   //   text: <span></span>
