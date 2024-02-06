@@ -42,7 +42,7 @@
   "operate-icon": {
     "title": "Operate ICON",
     "theme": {
-      "layout": "full",
+      "layout": "default",
       "breadcrumb": false
     }
   },
