@@ -12,9 +12,9 @@ Generating a valid transaction signature in ICON network.
 
 ### Prerequisite
 
-* [Elliptic Curve Digital Signature Algorithm](https://en.wikipedia.org/wiki/Elliptic\_Curve\_Digital\_Signature\_Algorithm)
-* [Transaction](../concepts/computational-utilities/transactions)
-* [ICON JSON-RPC API v3](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md)
+* [Elliptic Curve Digital Signature Algorithm ↗](https://en.wikipedia.org/wiki/Elliptic\_Curve\_Digital\_Signature\_Algorithm)
+* [Transaction](/develop-on-icon-chain/blockchain-components/transactions)
+* [ICON JSON-RPC API v3 ↗](https://github.com/icon-project/goloop/blob/master/doc/jsonrpc_v3.md)
 
 ### How to Serialize Transaction Data
 
