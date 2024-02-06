@@ -15,7 +15,7 @@
   },
   "separator1": {
     "type": "separator",
-    "title": "- Temporary Seperator -"
+    "title": "---"
   },
   "cross-chain-communication": {
     "title": "Cross-chain Communication",
@@ -26,7 +26,7 @@
   },
   "separator2": {
     "type": "separator",
-    "title": ""
+    "title": "---"
   },
   "develop-on-icon-chain": {
     "title": "Develop on ICON Chain",
@@ -37,7 +37,7 @@
   },
   "separator3": {
     "type": "separator",
-    "title": ""
+    "title": "---"
   },
   "operate-icon": {
     "title": "Operate ICON",
@@ -48,7 +48,7 @@
   },
   "separator4": {
     "type": "separator",
-    "title": ""
+    "title": "---"
   },
   "advanced-topics": {
     "title": "Advanced Topics",
@@ -59,7 +59,7 @@
   },
   "separator5": {
     "type": "separator",
-    "title": ""
+    "title": "---"
   },
   "contact": {
     "title": "Contact",

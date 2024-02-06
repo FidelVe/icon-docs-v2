@@ -161,9 +161,8 @@ const config: DocsThemeConfig = {
     titleComponent({ title, type }) {
       if (type === 'separator') {
         return (
-          <div style={{ background: 'cyan', textAlign: 'center' }}>
-            {title}
-            <img src='/images/dive-cli-banner.jpg' alt='' width='' height=''/>
+          <div className="w-1/2 mx-auto">
+            <img src='/images/seperator.png' alt='Menu Seperator' width='800' height='225'/>
           </div>
         )
       }
