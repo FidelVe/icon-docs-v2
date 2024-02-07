@@ -168,18 +168,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-goloop-cli</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-icon-sdk-js</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-nodejs</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/develop-on-icon-chain/blockchain-components/accounts</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -204,6 +192,26 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-goloop-cli</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-icon-sdk-js</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/accounts-and-authentication/using-nodejs</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments/java</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/icon-execution-environments/python-deprecated</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/develop-on-icon-chain/client-apis/java-sdk</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -221,14 +229,6 @@
   </url>
   <url>
     <loc>undefined/develop-on-icon-chain/client-apis/swift-sdk</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/icon-execution-environments/java</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/icon-execution-environments/python-deprecated</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -284,14 +284,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/operate-icon/governance/delegates</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/governance/network-proposals</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/operate-icon/how-to-run-a-local-network/debugging-a-local-network</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -304,6 +296,14 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/operate-icon/governance/delegates</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/governance/network-proposals</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/operate-icon/how-to-run-a-validator-node/json-standard-for-validator-detailed-information</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -313,18 +313,6 @@
   </url>
   <url>
     <loc>undefined/operate-icon/how-to-run-a-validator-node/register-prep-node-public-key</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/network/api-endpoints</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/network/clients</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/operate-icon/network/validator-nodes</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -376,6 +364,18 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>undefined/operate-icon/network/api-endpoints</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/network/clients</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/operate-icon/network/validator-nodes</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>undefined/cross-chain-communication/general-message-passing-xcall/quickstart/sending-a-message-with-rollback</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -396,14 +396,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>undefined/develop-on-icon-chain/client-apis/swift-sdk/examples</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>undefined/develop-on-icon-chain/smart-contracts/how-to-write-a-smart-contract/how-to-estimate-required-step</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>undefined/operate-icon/governance/network-proposals/overview-on-network-proposals</loc>
     <changefreq>weekly</changefreq>
   </url>
@@ -417,6 +409,14 @@
   </url>
   <url>
     <loc>undefined/operate-icon/governance/network-proposals/types-of-proposals</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/smart-contracts/how-to-write-a-smart-contract/how-to-estimate-required-step</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>undefined/develop-on-icon-chain/client-apis/swift-sdk/examples</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
